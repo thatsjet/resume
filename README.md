@@ -1,2 +1,6 @@
-# resume
-A place to store my CV, stored in a JSON file and published as HTML/PDF via JSON Resume
+# A CV for Me
+Doesn't everyone store their resume in a json file?
+
+Pretty version published via [JSON Resume Builder](https://github.com/jsonresume) at:
+
+(https://registry.jsonresume.org/thatsjet)
