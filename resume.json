@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Jeremy Anderson",
-    "label": "Continuous Security Evangelist",
+    "label": "DevSecOps Evangelist",
     "picture": "",
     "email": "janderson@miletwo.net",
     "phone": "+1 714-767-0789",
@@ -28,6 +28,32 @@
     ]
   },
   "work": [
+    {
+      "company": "DevSecOps Community",
+      "position": "Editor, Host of #DevSecOpsLIFE",
+      "website": "http://devsecops-community.org",
+      "startDate": "2017-11-05",
+      "endDate": "2099-01-01",
+      "summary": "The DevSecOps Community is a place where passionate InfoSec minds can collaborate around doing continuous security at DevOps speed.",
+      "highlights": [
+        "Host of the DevSecOpsLIFE show, published on YouTube at https://www.youtube.com/channel/UCZl_YoLSrB-kwiDHNbq345A",
+        "Creator of original content and code centered around solving problems related to the security and need for speed of DevOps pipelines.",
+        "Represent the DevSecOps Community as a speaker featured at RSA Conference 2018."
+      ]
+    },
+    {
+      "company": "SourceClear",
+      "position": "Community Leader",
+      "website": "http://www.sourceclear.com",
+      "startDate": "2017-11-05",
+      "endDate": "2099-01-01",
+      "summary": "SourceClear is a leader in Software Composition Analysis software",
+      "highlights": [
+        "Create a consistent stream of original content for the company blog.",
+        "Ghost writer for Executive Viewpoint content for weekly company blog.",
+        "Engage the InfoSec community through attendance and networking at developer and security meetups."
+      ]
+    },
     {
       "company": "Cambia Health Solutions",
       "position": "Application Security Architect",
