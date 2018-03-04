@@ -222,6 +222,7 @@ strong {
 
 .section {
     margin-bottom: 1rem;
+    float:left;
 }
 
 section .location {
@@ -287,7 +288,7 @@ section .location {
 }
 
 .main-summary p {
-    margin: .15em 0 0;
+    margin: .15em 0 1em;
 }
 
 h2.section-title {
@@ -613,7 +614,7 @@ ul.courses li:hover {
     }
     #resume {
         width: 820px;
-        margin: 2rem auto;      
+        margin: 2rem auto;
     }
     .section>section>header .space-left {
         opacity: 1;
@@ -700,6 +701,7 @@ ul.courses li:hover {
     .section {
         margin: .8rem 0;
         padding: 0;
+        float: left;
     }
     .section header {
         padding-bottom: .15rem;
@@ -747,6 +749,9 @@ ul.courses li:hover {
         margin: 0;
         padding: 0;
     }
+    .main-summary p{
+      margin: 0 0 10px;
+    }
     ul.courses::before {
         content: "Major courses: ";
     }
@@ -771,24 +776,24 @@ ul.courses li:hover {
 }
 
   </style>
-  
+
   </head>
   <body>
-  
+
   <div id="resume">
     	<header id="header" class="clear">
     		<div>
     			<h1 class="name">Jeremy &quot;Jet&quot; Anderson</h1>
-    			<h2 class="label">DevSecOps Evangelist, CSSLP, GWAPT</h2>
+    			<h2 class="label">Writer, Speaker, Hacker, Secure Coder, Architect and Evangelist of #DevSecOps. -- CSSLP, GWAPT and @thatsjet on Twitter</h2>
     		</div>
-    		
+
     		<span class="location">
-    			<span class="city">Portland,</span> 
-    			<span class="region">Oregon</span> 
-    			<span class="countryCode">US</span> 
+    			<span class="city">Portland,</span>
+    			<span class="region">Oregon</span>
+    			<span class="countryCode">US</span>
     		</span>
-    		
-    
+
+
     		<div id="contact">
     			<div class="website">
     				<span class="fa fa-external-link"></span>
@@ -803,14 +808,14 @@ ul.courses li:hover {
     				<a href="tel:+1 714-767-0789">+1 714-767-0789</a>
     			</div>
     		</div>
-    
+
     		<div id="profiles">
     			<div class="item">
     				<div class="username">
     					<span class="fa fa-twitter twitter social"></span>
     					<span class="url">
     						<a target="_blank" href="http://twitter.com/thatsjet">@thatsjet</a>
-    					</span> 
+    					</span>
     				</div>
     			</div>
     			<div class="item">
@@ -818,38 +823,184 @@ ul.courses li:hover {
     					<span class="fa fa-linkedin linkedin social"></span>
     					<span class="url">
     						<a target="_blank" href="https://linkedin.com/in/thatsjet">/thatsjet</a>
-    					</span> 
+    					</span>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-github github social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://github.com/thatsjet">/thatsjet</a>
+    					</span>
     				</div>
     			</div>
     		</div>
     	</header>
-    
+
     	<section class="section main-summary">
     		<section>
-    			<div><p>Hi, I'm Jet! My passion is teaching today's software developers to write secure code as part of modern DevOps pipelines, at speed, and at scale, without missing a beat. I keep a spare bootable Kali Linux VM on a jump drive because, who doesn't? I believe that a perfect AppSec program includes first training, then testing. I'm, a creative problem solver with a wealth of experience managing people, processes, and technology. I'm a skilled communicator who deftly translates the verbose into the succinct. I put the needs of the team above my own, finding that when I clearly communicate vision, support my team, and get out of the way the swell of other's success carries me forward. In my free time I like to ultralight backpack, mix cocktails from homemade extracts, and hack all.the.things.</p></div>
+    			<div><p>Hi, I'm Jet! My passion is teaching today's software developers to write secure code as part of modern DevOps pipelines, at speed, and at scale, without missing a beat. I know how to build AppSec programs using all of the SAST, DAST, and SCA flavors of the week for finding, exploiting, and fixing bugs in code, especially the OWASP Top 10. I've been a software engineer for over 20 years and believe that fix security bugs is better than just finding them. I believe that a perfect AppSec program includes first training, then testing. </p><p> I'm, a creative problem solver with a wealth of experience managing people, processes, and technology. I'm a skilled communicator who deftly translates the verbose into the succinct.I put the needs of the team above my own, finding that when I clearly communicate vision, support my team, and get out of the way the swell of other 's success carries me forward. </p><p> In my free time I like to ultralight backpack, mix cocktails from homemade extracts, and hack all.the.things.</p></div>
     		</section>
     	</section>
-    
+
+      <section class="section">
+        <header>
+          <h2 class='section-title'>Publications</h2>
+        </header>
+        <section id="publications">
+          <section class="publication-item">
+              <input id="publication-item-0" type="checkbox" class="toggle-item" checked="checked" />
+              <label for="publication-item-0"></label>
+
+            <header>
+              <div class="header-left">
+                <span class="name">
+                <span class="website">
+                <a target="_blank" href="https://www.sourceclear.com/blog/Writing-an-OpenSource-Usage-Policy/">Writing an OpenSource Usage Policy</a>
+                </span>
+                </span>
+                <span class="publisher">
+                in www.sourceclear.com
+                </span>
+              </div>
+              <span class="date">
+              20 February 2018
+              </span>
+            </header>
+
+            <div class="item">
+              <div class="summary">
+                <p><p>The first step to defining an OpenSource use policy is to realize that, while we’re setting about to chart a course to DevSecOps, we should expect that the path to maturity may take some time. Defining a timeline for success and creating S.M.A.R.T. goals (specific, measurable, achievable, reasonable, and timely) is critical...</p></p>
+              </div>
+            </div>
+          </section>
+          <section class="publication-item">
+              <input id="publication-item-1" type="checkbox" class="toggle-item" checked="checked" />
+              <label for="publication-item-1"></label>
+
+            <header>
+              <div class="header-left">
+                <span class="name">
+                <span class="website">
+                <a target="_blank" href="https://www.sourceclear.com/blog/Three-Easy-Steps-to-DevSecOps/">Three Easy Steps to DevSecOps</a>
+                </span>
+                </span>
+                <span class="publisher">
+                in www.sourceclear.com
+                </span>
+              </div>
+              <span class="date">
+              9 January 2018
+              </span>
+            </header>
+
+            <div class="item">
+              <div class="summary">
+                <p><p>There’s a lot being discussed these days about secure DevOps. What does it mean to do continuous integration and deployment in a secure way? Is it about securing the pipeline itself? Or, is there more to it than that? I have your back. There are just three basic steps to DevSecOps...</p></p>
+              </div>
+            </div>
+          </section>
+          <section class="publication-item">
+              <input id="publication-item-2" type="checkbox" class="toggle-item" checked="checked" />
+              <label for="publication-item-2"></label>
+
+            <header>
+              <div class="header-left">
+                <span class="name">
+                <span class="website">
+                <a target="_blank" href="https://www.sourceclear.com/blog/Whats-in-your-Crypto-Currency-Wallet/">What&#x27;s in your Crypto Currency Wallet?</a>
+                </span>
+                </span>
+                <span class="publisher">
+                in www.sourceclear.com
+                </span>
+              </div>
+              <span class="date">
+              19 December 2017
+              </span>
+            </header>
+
+            <div class="item">
+              <div class="summary">
+                <p><p>Given all of the hoopla about digital currencies these days, I decided to do a little digging into the relative security of cryptocurrency related open source projects...</p></p>
+              </div>
+            </div>
+          </section>
+          <section class="publication-item">
+              <input id="publication-item-3" type="checkbox" class="toggle-item" checked="checked" />
+              <label for="publication-item-3"></label>
+
+            <header>
+              <div class="header-left">
+                <span class="name">
+                <span class="website">
+                <a target="_blank" href="https://opensource.com/article/17/5/secure-open-source-devops">3 steps to secure, open source DevOps</a>
+                </span>
+                </span>
+                <span class="publisher">
+                in OpenSource.com
+                </span>
+              </div>
+              <span class="date">
+              3 May 2017
+              </span>
+            </header>
+
+            <div class="item">
+              <div class="summary">
+                <p><p>In my review of apps, both in my company and others, I've found that more than 90% of the code that makes up an app these days is something we borrowed, not wrote ourselves....</p></p>
+              </div>
+            </div>
+          </section>
+          <section class="publication-item">
+              <input id="publication-item-4" type="checkbox" class="toggle-item" checked="checked" />
+              <label for="publication-item-4"></label>
+
+            <header>
+              <div class="header-left">
+                <span class="name">
+                <span class="website">
+                <a target="_blank" href="https://www.veracode.com/blog/2016/05/securing-sdlc">Securing the SDLC</a>
+                </span>
+                </span>
+                <span class="publisher">
+                in www.Veracode.com
+                </span>
+              </div>
+              <span class="date">
+              16 May 2016
+              </span>
+            </header>
+
+            <div class="item">
+              <div class="summary">
+                <p><p>Our adversaries tirelessly poke, prod, and adapt their tactics, we have to as well. Thinking Agile-like means sharing information, being part of the solution not the problem, and being willing to change...</p></p>
+              </div>
+            </div>
+          </section>
+        </section>
+      </section>
+
     <section class="section">
       <header>
         <h2 class='section-title'>Work Experience <span class="item-count">(10)</span></h2>
       </header>
-    
+
       <section id="work">
         <section class="work-item">
-    
+
             <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked" />
             <label for="work-item-0"></label>
-    
+
     			<header>
     				<div class="position">Editor, Host of #DevSecOpsLIFE</div>
     				<div class="company">DevSecOps Community</div>
     				<div class="date">
-    				  <span class="startDate">November 2017</span> 
-    					<span class="endDate">- January 2099</span> 
+    				  <span class="startDate">November 2017</span>
+    					<span class="endDate">- January 2099</span>
     				</div>
     			</header>
-    			
+
         	<span class="website">
         		<a target="_blank" href="http://devsecops-community.org">http://devsecops-community.org</a>
         	</span>      	<div class="item" id="work-item">
@@ -865,19 +1016,19 @@ ul.courses li:hover {
         	</div>
         </section>
         <section class="work-item">
-    
-            <input id="work-item-1" type="checkbox" class="toggle-item" />
+
+            <input id="work-item-1" type="checkbox" class="toggle-item" checked="checked" />
             <label for="work-item-1"></label>
-    
+
     			<header>
     				<div class="position">Community Leader</div>
     				<div class="company">SourceClear</div>
     				<div class="date">
-    				  <span class="startDate">November 2017</span> 
-    					<span class="endDate">- January 2099</span> 
+    				  <span class="startDate">November 2017</span>
+    					<span class="endDate">- January 2099</span>
     				</div>
     			</header>
-    			
+
         	<span class="website">
         		<a target="_blank" href="http://www.sourceclear.com">http://www.sourceclear.com</a>
         	</span>      	<div class="item" id="work-item">
@@ -891,19 +1042,19 @@ ul.courses li:hover {
         	</div>
         </section>
         <section class="work-item">
-    
-            <input id="work-item-2" type="checkbox" class="toggle-item" />
+
+            <input id="work-item-2" type="checkbox" class="toggle-item" checked="checked" />
             <label for="work-item-2"></label>
-    
+
     			<header>
     				<div class="position">Application Security Architect</div>
     				<div class="company">Cambia Health Solutions</div>
     				<div class="date">
-    				  <span class="startDate">May 2016</span> 
-    					<span class="endDate">- November 2017</span> 
+    				  <span class="startDate">May 2016</span>
+    					<span class="endDate">- November 2017</span>
     				</div>
     			</header>
-    			
+
         	<span class="website">
         		<a target="_blank" href="http://www.cambiahealth.com">http://www.cambiahealth.com</a>
         	</span>      	<div class="item" id="work-item">
@@ -920,19 +1071,19 @@ ul.courses li:hover {
         	</div>
         </section>
         <section class="work-item">
-    
+
             <input id="work-item-3" type="checkbox" class="toggle-item" />
             <label for="work-item-3"></label>
-    
+
     			<header>
     				<div class="position">Security Solutions Architect</div>
     				<div class="company">Veracode, Inc.</div>
     				<div class="date">
-    				  <span class="startDate">November 2015</span> 
-    					<span class="endDate">- April 2016</span> 
+    				  <span class="startDate">November 2015</span>
+    					<span class="endDate">- April 2016</span>
     				</div>
     			</header>
-    			
+
         	<span class="website">
         		<a target="_blank" href="http://www.veracode.com">http://www.veracode.com</a>
         	</span>      	<div class="item" id="work-item">
@@ -946,19 +1097,19 @@ ul.courses li:hover {
         	</div>
         </section>
         <section class="work-item">
-    
+
             <input id="work-item-4" type="checkbox" class="toggle-item" />
             <label for="work-item-4"></label>
-    
+
     			<header>
     				<div class="position">Marketing Solutions Architect</div>
     				<div class="company">Hewlett Packard, Inc.</div>
     				<div class="date">
-    				  <span class="startDate">May 2014</span> 
-    					<span class="endDate">- November 2015</span> 
+    				  <span class="startDate">May 2014</span>
+    					<span class="endDate">- November 2015</span>
     				</div>
     			</header>
-    			
+
         	<span class="website">
         		<a target="_blank" href="http://www.hp.com">http://www.hp.com</a>
         	</span>      	<div class="item" id="work-item">
@@ -973,19 +1124,19 @@ ul.courses li:hover {
         	</div>
         </section>
         <section class="work-item">
-    
+
             <input id="work-item-5" type="checkbox" class="toggle-item" />
             <label for="work-item-5"></label>
-    
+
     			<header>
     				<div class="position">Development &amp; Operations Manager</div>
     				<div class="company">U.S. Bancorp</div>
     				<div class="date">
-    				  <span class="startDate">May 2013</span> 
-    					<span class="endDate">- April 2014</span> 
+    				  <span class="startDate">May 2013</span>
+    					<span class="endDate">- April 2014</span>
     				</div>
     			</header>
-    			
+
         	<span class="website">
         		<a target="_blank" href="http://www.usbank.com">http://www.usbank.com</a>
         	</span>      	<div class="item" id="work-item">
@@ -1002,19 +1153,19 @@ ul.courses li:hover {
         	</div>
         </section>
         <section class="work-item">
-    
+
             <input id="work-item-6" type="checkbox" class="toggle-item" />
             <label for="work-item-6"></label>
-    
+
     			<header>
     				<div class="position">Enterprise Content Solutions Architect</div>
     				<div class="company">U.S. Bancorp</div>
     				<div class="date">
-    				  <span class="startDate">November 2007</span> 
-    					<span class="endDate">- April 2013</span> 
+    				  <span class="startDate">November 2007</span>
+    					<span class="endDate">- April 2013</span>
     				</div>
     			</header>
-    			
+
         	<span class="website">
         		<a target="_blank" href="http://www.usbank.com">http://www.usbank.com</a>
         	</span>      	<div class="item" id="work-item">
@@ -1030,19 +1181,19 @@ ul.courses li:hover {
         	</div>
         </section>
         <section class="work-item">
-    
+
             <input id="work-item-7" type="checkbox" class="toggle-item" />
             <label for="work-item-7"></label>
-    
+
     			<header>
     				<div class="position">VP, Director of Engineering</div>
     				<div class="company">Earthbound Media Group</div>
     				<div class="date">
-    				  <span class="startDate">December 2006</span> 
-    					<span class="endDate">- November 2007</span> 
+    				  <span class="startDate">December 2006</span>
+    					<span class="endDate">- November 2007</span>
     				</div>
     			</header>
-    			
+
         	<span class="website">
         		<a target="_blank" href="https://www.facebook.com/earthboundmediagroup/">https://www.facebook.com/earthboundmediagroup/</a>
         	</span>      	<div class="item" id="work-item">
@@ -1056,19 +1207,19 @@ ul.courses li:hover {
         	</div>
         </section>
         <section class="work-item">
-    
+
             <input id="work-item-8" type="checkbox" class="toggle-item" />
             <label for="work-item-8"></label>
-    
+
     			<header>
     				<div class="position">Owner, Principal Solutions Architect</div>
     				<div class="company">Miletwo, Inc.</div>
     				<div class="date">
-    				  <span class="startDate">January 2005</span> 
-    					<span class="endDate">- December 2006</span> 
+    				  <span class="startDate">January 2005</span>
+    					<span class="endDate">- December 2006</span>
     				</div>
     			</header>
-    			
+
         	<span class="website">
         		<a target="_blank" href="www.miletwo.net">www.miletwo.net</a>
         	</span>      	<div class="item" id="work-item">
@@ -1083,18 +1234,18 @@ ul.courses li:hover {
         	</div>
         </section>
         <section class="work-item">
-    
+
             <input id="work-item-9" type="checkbox" class="toggle-item" />
             <label for="work-item-9"></label>
-    
+
     			<header>
     				<div class="company">Previous Experience</div>
     				<div class="date">
-    				  <span class="startDate">January 1996</span> 
-    					<span class="endDate">- January 2005</span> 
+    				  <span class="startDate">January 1996</span>
+    					<span class="endDate">- January 2005</span>
     				</div>
     			</header>
-    			
+
          	<div class="item" id="work-item">
             <div class="summary">
               <p><p>In the years prior to owning my business I also held the following roles:</p></p>
@@ -1112,7 +1263,7 @@ ul.courses li:hover {
       <header>
         <h2 class='section-title'>Education <span class="item-count">(2)</span></h2>
       </header>
-    
+
       <section id="education">
         <section class="education-item">
           <header>
@@ -1136,15 +1287,15 @@ ul.courses li:hover {
               </span>
             </div>
           </header>
-    
-    
+
+
           <ul class="courses">
             <li>The Data Scientist’s Toolbox</li>
             <li>R Programming</li>
             <li>Getting and Cleaning Data</li>
             <li>Exploratory Data Analysis</li>
           </ul>
-    
+
           <div class="item">
           </div>
         </section>
@@ -1167,13 +1318,13 @@ ul.courses li:hover {
               </span>
             </div>
           </header>
-    
-    
+
+
           <ul class="courses">
             <li>major: Graphic Design</li>
             <li>minor: Fine Art</li>
           </ul>
-    
+
           <div class="item">
           </div>
         </section>
