@@ -1,0 +1,16 @@
+.section {
+    float:left;
+}
+
+.main-summary p {
+    margin: .15em 0 1em;
+}
+
+@media print {
+  .section {
+    float: left;
+  }
+  .main-summary p {
+      margin: .15em 0 1em;
+  }
+}

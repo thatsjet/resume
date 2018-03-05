@@ -229,7 +229,27 @@
       "summary": "Our adversaries tirelessly poke, prod, and adapt their tactics, we have to as well. Thinking Agile-like means sharing information, being part of the solution not the problem, and being willing to change..."
 		}
 	],
-	"awards": [],
+
+  "awards": [
+    {
+      "title": "Oh SNAP! There's Crap In Your App",
+      "date": "2018-04-18",
+      "awarder": "RSA Conference, 2018",
+      "summary": "Today’s developers download awesome libraries for their favorite language to do almost anything. We scan our code for flaws with static analysis tools, but what about all the stuff we didn’t write? Learn how to find and track the crap in your app, and how to avoid getting pwned because you let a nasty in the back door with that library that does the really cool thing you couldn’t live without."
+    },
+    {
+      "title": "Securing Your Code from Zero to Hero",
+      "date": "2017-08-30",
+      "awarder": "Jenkins World, 2017",
+      "summary": "With a shift to the cloud, our software needed to be bullet-proof against security defects in a fast-paced DevOps model. The problem: how to build in security along the entire pipeline, keep developers focused on writing great code, and do it all with speed and at scale."
+    },
+    {
+      "title": "Application security: From zero to hero",
+      "date": "2017-05-10",
+      "awarder": "O'Reilly Open Source Convention, 2017",
+      "summary": "Application security is tough. But while the rest of the world tries to solve the problems of insecure software with firewalls and intrusion detection, Jeremy Anderson explains how to solve the problem where it starts: at the code that defines it. Join Jeremy to learn how to fix code security defects when they’re created instead of during production when it’s already too late."
+    }
+  ],
 	"skills": [],
 	"interests": [{
 		"name": "Ultralight backpacking, cooking, cocktail mixology, and hacking all.the.things",
