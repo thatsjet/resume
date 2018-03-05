@@ -139,7 +139,7 @@ In the years prior to owning my business I also held the following roles:
 * minor: Fine Art
 
 
-## Awards
+## Speaking
 
 ### Oh SNAP! There&#x27;s Crap In Your App from RSA Conference, 2018 on 2018-04-18
 
