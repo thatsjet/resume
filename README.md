@@ -5,17 +5,17 @@
 
 ## Contact
 
-Email: [janderson@miletwo.net](mailto:janderson@miletwo.net)
-Website: [http://thatsjet.com](http://thatsjet.com)
-Phone: +1 714-767-0789
+Email: [janderson@miletwo.net](mailto:janderson@miletwo.net)  
+Website: [http://thatsjet.com](http://thatsjet.com)  
+Phone: +1 714-767-0789  
 
 Location: Portland, OR, USA
 
 ## Profiles
 
-[Twitter - @thatsjet](http://twitter.com/thatsjet)
-[LinkedIn - /thatsjet](https://linkedin.com/in/thatsjet)
-[GitHub - /thatsjet](https://github.com/thatsjet)
+[Twitter - @thatsjet](http://twitter.com/thatsjet)  
+[LinkedIn - /thatsjet](https://linkedin.com/in/thatsjet)  
+[GitHub - /thatsjet](https://github.com/thatsjet)  
 
 ## Summary
 
@@ -28,7 +28,7 @@ Hi, I&#x27;m Jet! My passion is teaching today&#x27;s software developers to wri
 ## Work
 
 ### Editor, Host of #DevSecOpsLIFE, [DevSecOps Community](http://devsecops-community.org)
-##### 2017-11-05 - 2099-01-01
+##### 2017-11-05 - 2018-03-09
 
 * Host of the DevSecOpsLIFE show, published on YouTube at https://www.youtube.com/channel/UCZl_YoLSrB-kwiDHNbq345A
 * Creator of original content and code centered around solving problems related to the security and need for speed of DevOps pipelines.
@@ -38,7 +38,7 @@ Hi, I&#x27;m Jet! My passion is teaching today&#x27;s software developers to wri
 The DevSecOps Community is a place where passionate InfoSec minds can collaborate around doing continuous security at DevOps speed.
 
 ### Community Leader, [SourceClear](http://www.sourceclear.com)
-##### 2017-11-05 - 2099-01-01
+##### 2017-11-05 - 2018-03-09
 
 * Engage the InfoSec community through attendance and networking at developer and security meetups.
 * Develop security tooling and engaging content around solving software security problems.
@@ -139,7 +139,7 @@ In the years prior to owning my business I also held the following roles:
 * minor: Fine Art
 
 
-## Speaking
+## Awards
 
 ### Oh SNAP! There&#x27;s Crap In Your App from RSA Conference, 2018 on 2018-04-18
 
