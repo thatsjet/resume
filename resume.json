@@ -6,7 +6,7 @@
 		"email": "janderson@miletwo.net",
 		"phone": "+1 714-767-0789",
 		"website": "http://thatsjet.com",
-		"summary": "Hi, I'm Jet! My passion is teaching today's software developers to write secure code as part of modern DevOps pipelines, at speed, and at scale, without missing a beat. I know how to build AppSec programs using all of the SAST, DAST, and SCA flavors of the week for finding, exploiting, and fixing bugs in code, especially the OWASP Top 10. I've been a software engineer for over 20 years and believe that fix security bugs is better than just finding them. I believe that a perfect AppSec program includes first training, then testing. \n\n I'm, a creative problem solver with a wealth of experience managing people, processes, and technology. I'm a skilled communicator who deftly translates the verbose into the succinct.I put the needs of the team above my own, finding that when I clearly communicate vision, support my team, and get out of the way the swell of other 's success carries me forward. \n\n In my free time I like to ultralight backpack, mix cocktails from homemade extracts, and hack all.the.things.",
+		"summary": "Hi, I'm Jet! My passion is teaching today's software developers to write secure code as part of modern DevOps pipelines, at speed, and at scale, without missing a beat. I know how to build AppSec programs using all of the SAST, DAST, and SCA flavors of the week for finding, exploiting, and fixing bugs in code, especially the OWASP Top 10. I've been a software engineer for over 20 years and believe that fixing security bugs is better than just finding them. I believe that a perfect AppSec program includes first training, then testing. \n\n I'm, a creative problem solver with a wealth of experience managing people, processes, and technology. I'm a skilled communicator who deftly translates the verbose into the succinct. I put the needs of the team above my own, finding that when I clearly communicate vision, support my team, and get out of the way the swell of other 's success carries me forward. \n\n In my free time I like to ultralight backpack, mix cocktails from homemade extracts, and hack all.the.things.",
 		"location": {
 			"address": "",
 			"postalCode": "",
@@ -36,7 +36,6 @@
 			"position": "Editor, Host of #DevSecOpsLIFE",
 			"website": "http://devsecops-community.org",
 			"startDate": "2017-11-05",
-			"endDate": "2018-03-09",
 			"summary": "The DevSecOps Community is a place where passionate InfoSec minds can collaborate around doing continuous security at DevOps speed.",
 			"highlights": [
 				"Host of the DevSecOpsLIFE show, published on YouTube at https://www.youtube.com/channel/UCZl_YoLSrB-kwiDHNbq345A",
