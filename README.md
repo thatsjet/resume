@@ -9,7 +9,10 @@ Email: [janderson@miletwo.net](mailto:janderson@miletwo.net)
 Website: [http://thatsjet.com](http://thatsjet.com)  
 Phone: +1 714-767-0789  
 
-Location: Portland, OR, USA
+City: Portland  
+
+Country: US  
+Country: Oregon  
 
 ## Profiles
 
@@ -19,16 +22,16 @@ Location: Portland, OR, USA
 
 ## Summary
 
-Hi, I&#x27;m Jet! My passion is teaching today&#x27;s software developers to write secure code as part of modern DevOps pipelines, at speed, and at scale, without missing a beat. I know how to build AppSec programs using all of the SAST, DAST, and SCA flavors of the week for finding, exploiting, and fixing bugs in code, especially the OWASP Top 10. I&#x27;ve been a software engineer for over 20 years and believe that fix security bugs is better than just finding them. I believe that a perfect AppSec program includes first training, then testing.
+Hi, I&#x27;m Jet! My passion is teaching today&#x27;s software developers to write secure code as part of modern DevOps pipelines, at speed, and at scale, without missing a beat. I know how to build AppSec programs using all of the SAST, DAST, and SCA flavors of the week for finding, exploiting, and fixing bugs in code, especially the OWASP Top 10. I&#x27;ve been a software engineer for over 20 years and believe that fixing security bugs is better than just finding them. I believe that a perfect AppSec program includes first training, then testing. 
 
- I&#x27;m, a creative problem solver with a wealth of experience managing people, processes, and technology. I&#x27;m a skilled communicator who deftly translates the verbose into the succinct.I put the needs of the team above my own, finding that when I clearly communicate vision, support my team, and get out of the way the swell of other &#x27;s success carries me forward.
+ I&#x27;m, a creative problem solver with a wealth of experience managing people, processes, and technology. I&#x27;m a skilled communicator who deftly translates the verbose into the succinct. I put the needs of the team above my own, finding that when I clearly communicate vision, support my team, and get out of the way the swell of other &#x27;s success carries me forward. 
 
  In my free time I like to ultralight backpack, mix cocktails from homemade extracts, and hack all.the.things.
 
 ## Work
 
 ### Editor, Host of #DevSecOpsLIFE, [DevSecOps Community](http://devsecops-community.org)
-##### 2017-11-05 - 2018-03-09
+##### 2017-11-05 
 
 * Host of the DevSecOpsLIFE show, published on YouTube at https://www.youtube.com/channel/UCZl_YoLSrB-kwiDHNbq345A
 * Creator of original content and code centered around solving problems related to the security and need for speed of DevOps pipelines.
@@ -139,7 +142,7 @@ In the years prior to owning my business I also held the following roles:
 * minor: Fine Art
 
 
-## Public Speaking
+## Awards
 
 ### Oh SNAP! There&#x27;s Crap In Your App from RSA Conference, 2018 on 2018-04-18
 
@@ -182,3 +185,4 @@ Our adversaries tirelessly poke, prod, and adapt their tactics, we have to as we
 ## Interests
 
 * Ultralight backpacking, cooking, cocktail mixology, and hacking all.the.things
+
