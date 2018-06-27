@@ -31,10 +31,21 @@
 			}
 		]
 	},
-	"work": [{
+	"work": [
+		{
+			"company": "Nike, Inc.",
+			"position": "Cyber Security Incident Coordinator",
+			"website": "https://www.nike.com",
+			"startDate": "2018-04-11",
+			"summary": "As a member of the Cyber Security Incident Response Team (CSIRT), my role as an Incident Coordinator is to lead the CSIRT team in resolving the incident and act as the primary point of contact for the Cyber Security Incident Management Team (CSIMT). The CSIRT Coordinator’s first and most important task is working with the CSIRT team to triage the incident and determine the category, type, severity and risk impact. Once this has been accomplished, the CSIRT Coordinator’s main responsibility is to facilitate the gathering of additional resources while removing any roadblocks that the CSIRT may experience. This includes establishing meeting bridges and points of contact between members, obtaining resources, and communicating any necessary information to the team or the CSIMT. ",
+			"highlights": [
+				"At current I am unable to disclose any highlights of this role as they are confident/restricted"
+			]
+		},
+		{
 			"company": "DevSecOps Community",
 			"position": "Editor, Host of #DevSecOpsLIFE",
-			"website": "http://devsecops-community.org",
+			"website": "https://devsecops-community.org",
 			"startDate": "2017-11-05",
 			"summary": "The DevSecOps Community is a place where passionate InfoSec minds can collaborate around doing continuous security at DevOps speed.",
 			"highlights": [
@@ -47,7 +58,7 @@
 		{
 			"company": "SourceClear",
 			"position": "Community Leader",
-			"website": "http://www.sourceclear.com",
+			"website": "https://www.sourceclear.com",
 			"startDate": "2017-11-05",
 			"endDate": "2018-03-09",
 			"summary": "SourceClear is a leader in Software Composition Analysis software",
@@ -59,7 +70,7 @@
 		{
 			"company": "Cambia Health Solutions",
 			"position": "Application Security Architect",
-			"website": "http://www.cambiahealth.com",
+			"website": "https://www.cambiahealth.com",
 			"startDate": "2016-05-13",
 			"endDate": "2017-11-02",
 			"summary": "Cambia Health Solutions is a group of more than 25 health care companies and includes software and mobile applications, health insurance, non-traditional health care marketplaces and delivery models, pharmacy benefit management, wellness solutions and more. I was brought on to bootstrap an Application Security program, introducing automated analysis built into the software development pipeline, training programs to turn developers into secure code champions, and policies & procedures to tie it all together, all in months rather than years.",
@@ -74,7 +85,7 @@
 		{
 			"company": "Veracode, Inc.",
 			"position": "Security Solutions Architect",
-			"website": "http://www.veracode.com",
+			"website": "https://www.veracode.com",
 			"startDate": "2015-11-16",
 			"endDate": "2016-04-16",
 			"summary": "Veracode is a leader in the Gartner Magic Quadrant for Application Security testing. In my time there I have worked with Americas biggest brands identifying risk in the SDLC and helping them design solutions that empower development teams to innovate quickly while identifying vulnerabilities and mitigating risk early.",
@@ -86,7 +97,7 @@
 		{
 			"company": "Hewlett Packard, Inc.",
 			"position": "Marketing Solutions Architect",
-			"website": "http://www.hp.com",
+			"website": "https://www.hp.com",
 			"startDate": "2014-05-01",
 			"endDate": "2015-11-16",
 			"summary": "HP Software is a leader in the Gartner Magic Quadrant for Enterprise Content Management systems, digital personalization, and media asset management. My role was helping customers understand how to integrate digital solutions to automate their existing workflows, give marketing groups an understanding of customer sentiment, and empower content authors to deliver dynamic and personalized content, to the right person, at the right time.",
@@ -99,7 +110,7 @@
 		{
 			"company": "U.S. Bancorp",
 			"position": "Development & Operations Manager",
-			"website": "http://www.usbank.com",
+			"website": "https://www.usbank.com",
 			"startDate": "2013-05-01",
 			"endDate": "2014-04-30",
 			"summary": "US Bank is the national leader in wholesale lockbox processing. The platform I oversaw processed over $3.2 Billion per month in check and credit card payments for wholesale customers with 24x7 shift overlay in 9 operations centers across the United States. When I overtook the leadership role of this group they had no disaster recovery, poor cross-functional collaboration, and a reputation within the company of not caring about the customer. I oversaw a successful transformation across all of these areas making the group into a respected and high performing asset to the company.",
@@ -114,7 +125,7 @@
 		{
 			"company": "U.S. Bancorp",
 			"position": "Enterprise Content Solutions Architect",
-			"website": "http://www.usbank.com",
+			"website": "https://www.usbank.com",
 			"startDate": "2007-11-17",
 			"endDate": "2013-04-30",
 			"summary": " The Enterprise Content Management group at US Bank maintains a platform and development for over 300 web properties across the banking enterprise. The platform supports the creation and delivery of content for 1000+ users on a 24x7 zero latency delivery schedule allowing the business to drive content marketing change and configuration management at the speed of business. Before I joined the team had developers manually deploying their own code to production, maintaining their own databases, and certifying their own code.",
