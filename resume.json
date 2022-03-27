@@ -33,14 +33,14 @@
 	"work": [
 		{
 			"company": "Nike, Inc.",
-			"position": "Code Doctor",
+			"position": "Expert Application Security Engineer",
 			"website": "https://www.nike.com",
 			"startDate": "2018-08-01",
 			"summary": "In order to scale security education for application creators around the world I created the Code Doctor program encompassing instructor led courses, self-service informal learning content in the form of a weekly application security video podcast, and a hands-on laboratory experience fixing security defects in a gamified environment, all scaled and delivered to thousands of application creators worldwide.",
 			"highlights": [
 				"Created a training program for developers to introduce fundamentals of secure coding delivered in-person to over 1,000 developers worldwide.",
 				"Host and producer of an internal podcast with 62 episodes at current publishing deep technical application security content to effectively scale delivery of security remediation and architecture best practices to a global audience.",
-				"Remediation guidance, consulting and architecture review for dozens of application teams across the organization.",
+				"Threat modeling, remediation guidance, consulting and architecture review.",
 				"Deployed a hands-on, gamified platform for security defect remediation education."
 			]
 		},
