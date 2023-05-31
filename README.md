@@ -10,7 +10,6 @@ View in the following formats:
 ## Contact
 
 Email: [janderson@miletwo.net](mailto:janderson@miletwo.net)  
-Website: [http://thatsjet.com](http://thatsjet.com)  
 
 Location: Portland, Oregon, USA
 
