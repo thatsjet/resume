@@ -9,7 +9,7 @@
 		"location": {
 			"address": "",
 			"postalCode": "",
-			"city": "Beaverton",
+			"city": "North Plains",
 			"countryCode": "US",
 			"region": "Oregon"
 		},
@@ -31,6 +31,26 @@
 		]
 	},
 	"work": [
+		{
+			"company": "Amazon",
+			"position": "Sr. Security Engineer - Devices & Services Software Security",
+			"website": "https://www.amazon.com",
+			"startDate": "2022-05-23",
+			"summary": "Initially joined the Alexa organization assessing the various services in support of the Alexa ecosystem. For the last year supported the Smart Home Devices and Services organization assisting in the secure development of Amazon and 3rd party devices and related services to delight customers with the most advanced, easy to use, and secure smart home experience. As part of that effort I've been an active member of the Connectivity STandards Alliance, Matter Threat Model Tiger Team, actively assessing the security of new features in the Matter SDK and specifications.",
+			"highlights": [
+				"Participated with engineering teams in the secure design of new systems.",
+				"Conducted security reviews of critical applications in production to ensure a high security bar is maintained",
+				"Provided remediation guidance and training for software engineers to assist them in properly mitigating security weakness",
+				"Assisted development teams with threat modeling guidance of their applications to ensure all weakness is identified and addressed with a risk-oriented mitigation strategy.",
+				"Created a standardized scripting assessment for hiring security engineers",
+				"Created a standardized code review assessment for hiring security engineers",
+				"Created a standardized threat modeling assessment template for hiring security engineers",
+				"Mentored junior team members and software engineers interested in software security",
+				"Participated as a member of the Connectivity Standards Alliance to further develop the Matter Threat Model as well as to provide security reviews of new features in the Matter SDK.",
+				"",
+				"",
+			]
+		},
 		{
 			"company": "Nike, Inc.",
 			"position": "Expert Application Security Engineer",
