@@ -2,10 +2,10 @@
 	"basics": {
 		"name": "Jet Anderson",
 		"image": "https://www.thatsjet.com/images/jet-anime-sm.jpg",
-		"email": "janderson@miletwo.net",
+		"email": "jet@miletwo.net",
 		"phone": "+1 714-767-0789",
 		"url": "http://thatsjet.com",
-		"summary": "Hi, I'm Jet! My passion is leading today's software developers to write secure code as part of modern DevOps pipelines, at speed, and at scale, without missing a beat. I've been a software engineer for almost 30 years and believe that fixing security defects is better than just finding them. In my perfect world application security professionals are no longer needed as security is just another element of code quality. \n\n I'm a creative problem solver with a wealth of experience managing people, processes, and technology. I'm a skilled communicator able to translate the verbose into the succinct and a hands-on leader.\n\n In my free time I like overlanding in my Toyota Tundra, mixing cocktails from homemade extracts, and hacking all.the.things.",
+		"summary": "Hi, I'm Jet! My passion is leading today's software developers to write secure code as part of modern pipelines, at speed, and at scale, without missing a beat. I've been a software engineer for almost 30 years and believe that fixing security defects is better than just finding them. In my perfect world application security professionals are no longer needed as security is just another element of code quality. \n\n I'm a creative problem solver with a wealth of experience managing people, processes, and technology. I'm a skilled communicator able to translate the verbose into the succinct and a hands-on leader.\n\n In my free time I like overlanding in my Toyota Tundra, mixing cocktails from homemade extracts, and hacking all.the.things.",
 		"location": {
 			"address": "",
 			"postalCode": "",
@@ -36,7 +36,7 @@
 			"position": "Sr. Security Engineer - Devices & Services Software Security",
 			"website": "https://www.amazon.com",
 			"startDate": "2022-05-23",
-			"summary": "Initially joined the Alexa organization assessing services in support of the Alexa ecosystem. For the last year supported the Smart Home Devices and Services organization assisting in the secure development of Amazon and 3rd party devices and related services to delight customers with the most advanced, easy to use, and secure smart home experience. As part of that effort I've been an active member of the Connectivity STandards Alliance, Matter Threat Model Tiger Team, actively assessing the security of new features in the Matter SDK and specifications.",
+			"summary": "Initially joined the Alexa organization assessing services in support of the Alexa ecosystem. For the last year supported the Smart Home Devices and Services organization assisting in the secure development of Amazon and 3rd party devices and related services to delight customers with the most advanced, easy to use, and secure smart home experience. As part of that effort I've been an active member of the Connectivity Standards Alliance serving on various technical subgroups including the Matter Threat Model Tiger Team, actively assessing the security of new features in the Matter SDK and specifications.",
 			"highlights": [
 				"Participated with engineering teams in the secure design of new systems.",
 				"Conducted security reviews of critical applications in production to ensure a high security bar is maintained",
@@ -46,9 +46,7 @@
 				"Created a standardized Java code review assessment for hiring security engineers",
 				"Created a standardized threat modeling assessment template for hiring security engineers",
 				"Mentored junior team members and software engineers interested in software security",
-				"Participated as a member of the Connectivity Standards Alliance to further develop the Matter Threat Model as well as to provide security reviews of new features in the Matter SDK.",
-				"",
-				"",
+				"Participated as a member of the Connectivity Standards Alliance to further develop the Matter Threat Model as well as to provide security reviews of new features in the Matter SDK."
 			]
 		},
 		{

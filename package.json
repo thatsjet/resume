@@ -5,6 +5,9 @@
     "jsonresume-theme-elegant": "^1.16.1",
     "jsonresume-theme-even": "^0.16.1",
     "jsonresume-theme-flat": "^0.3.7",
-    "jsonresume-theme-short": "^0.1.7"
+    "jsonresume-theme-short": "^0.1.7",
+    "jsonresume-theme-stackoverflow": "^2.0.2",
+    "resumed": "^3.0.1",
+    "validator": "^13.12.0"
   }
 }
