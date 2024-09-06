@@ -32,7 +32,7 @@
 	},
 	"work": [
 		{
-			"company": "Amazon",
+			"name": "Amazon",
 			"position": "Sr. Security Engineer - Devices & Services Software Security",
 			"website": "https://www.amazon.com",
 			"startDate": "2022-05-23",
@@ -50,7 +50,7 @@
 			]
 		},
 		{
-			"company": "Nike, Inc.",
+			"name": "Nike, Inc.",
 			"position": "Expert Application Security Engineer",
 			"website": "https://www.nike.com",
 			"startDate": "2018-08-01",
@@ -63,7 +63,7 @@
 			]
 		},
 		{
-			"company": "Nike, Inc.",
+			"name": "Nike, Inc.",
 			"position": "Cyber Security Incident Coordinator",
 			"website": "https://www.nike.com",
 			"startDate": "2018-04-11",
@@ -73,7 +73,7 @@
 			]
 		},
 		{
-			"company": "SourceClear",
+			"name": "SourceClear",
 			"position": "Developer Evangelist",
 			"website": "https://www.sourceclear.com",
 			"startDate": "2017-11-05",
@@ -87,7 +87,7 @@
 			]
 		},
 		{
-			"company": "Cambia Health Solutions",
+			"name": "Cambia Health Solutions",
 			"position": "Application Security Architect",
 			"website": "https://www.cambiahealth.com",
 			"startDate": "2016-05-13",
@@ -102,7 +102,7 @@
 			]
 		},
 		{
-			"company": "Veracode, Inc.",
+			"name": "Veracode, Inc.",
 			"position": "Solutions Architect",
 			"website": "https://www.veracode.com",
 			"startDate": "2015-11-16",
@@ -114,7 +114,7 @@
 			]
 		},
 		{
-			"company": "Hewlett Packard, Inc.",
+			"name": "Hewlett Packard, Inc.",
 			"position": "Marketing Solutions Architect",
 			"website": "https://www.hp.com",
 			"startDate": "2014-05-01",
@@ -127,7 +127,7 @@
 			]
 		},
 		{
-			"company": "U.S. Bancorp",
+			"name": "U.S. Bancorp",
 			"position": "Development & Operations Manager, Wholesale Banking",
 			"website": "https://www.usbank.com",
 			"startDate": "2013-05-01",
@@ -142,7 +142,7 @@
 			]
 		},
 		{
-			"company": "U.S. Bancorp",
+			"name": "U.S. Bancorp",
 			"position": "Enterprise Content Solutions Architect",
 			"website": "https://www.usbank.com",
 			"startDate": "2007-11-17",
@@ -156,7 +156,7 @@
 			]
 		},
 		{
-			"company": "Earthbound Media Group",
+			"name": "Earthbound Media Group",
 			"position": "VP, Director of Engineering",
 			"website": "https://www.facebook.com/earthboundmediagroup/",
 			"startDate": "2006-12-01",
@@ -168,7 +168,7 @@
 			]
 		},
 		{
-			"company": "Miletwo, Inc.",
+			"name": "Miletwo, Inc.",
 			"position": "Owner, Principal Solutions Architect",
 			"website": "www.miletwo.net",
 			"startDate": "2005-01-01",
@@ -181,7 +181,7 @@
 			]
 		},
 		{
-			"company": "Previous Experience",
+			"name": "Previous Experience",
 			"position": "",
 			"website": "",
 			"startDate": "1996-01-01",
