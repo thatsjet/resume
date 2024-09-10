@@ -1,0 +1,1372 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Jet Anderson</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+  <style>
+  /********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************
+*	COMMONS
+****************/
+
+body,
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 13px;
+  color: #40484f;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.46153846;
+  text-align: left;
+}
+
+p {
+  display: block;
+}
+
+a {
+  color: #0095ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0c65a5;
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 1.3em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.67rem;
+}
+
+h3 {
+  font-size: 1.27rem;
+}
+
+em {
+  color: #757575;
+}
+
+blockquote {
+  margin-bottom: 1em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* main container */
+
+#resume {
+  padding: 1.5rem;
+}
+
+/* every section wrapper */
+
+.section {
+  margin-bottom: 1rem;
+}
+
+section .location {
+  margin-right: 0.5em;
+  color: #606d76;
+  font-weight: 700;
+}
+
+#contact {
+  margin-top: 0.5rem;
+}
+
+#profiles .item {
+  padding: 0;
+}
+
+#header > #profiles,
+#header > #contact,
+#skills,
+#languages,
+#interests {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+#header > div {
+  line-height: 1.5;
+}
+
+#header > div > div {
+  margin-right: 1.2em;
+}
+
+#header h1.name {
+  font-size: 2.8rem;
+  font-weight: 100;
+  line-height: 100%;
+}
+
+#header h2.label {
+  color: #202931;
+  font-size: 1.47rem;
+  font-weight: 300;
+}
+
+#header .image {
+  width: 11em;
+  float: right;
+  border-radius: 4px;
+}
+
+.main-summary {
+  background: #f1f8ff;
+  padding: 1.2em 1em;
+  margin-top: 1rem;
+}
+
+.main-summary p {
+  margin: 0;
+}
+
+.section-title {
+  display: inline-block;
+  background: #fff;
+  padding: 0 1em 0.3em 0;
+  color: #ff6d1f;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.section > header {
+  position: relative;
+}
+
+.fa {
+  margin-right: 0.25em;
+}
+
+.section > header::after {
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  height: 1px;
+  background: #ccc;
+  content: "";
+  width: 100%;
+  z-index: -100;
+  display: block;
+}
+
+.section.main-summary > section {
+  margin: 0;
+}
+
+.section > section > header {
+  font-size: 1.38rem;
+  position: relative;
+  margin-top: 0.7em;
+}
+
+.section > section > header:first-of-type {
+  margin: 0;
+}
+
+.section > section > header .space-left {
+  position: absolute;
+  left: -1.56rem;
+  top: 5px;
+  color: #aaa;
+  line-height: 1;
+  opacity: 0;
+}
+
+.position,
+.company,
+.organization,
+.institution,
+.date,
+.area,
+.studyType,
+.title,
+.awarder {
+  display: inline;
+}
+
+.position,
+.studyType,
+.area,
+.title,
+.language,
+.name {
+  font-weight: 600;
+}
+
+.company::before,
+.institution::before,
+.organization::before,
+.awarder::before {
+  content: "at ";
+}
+
+.company,
+.institution,
+.organization,
+.awarder {
+  color: #606d76;
+  font-weight: 400;
+}
+
+.section header .date {
+  display: block;
+  font-size: 1rem;
+  padding: 0.1em 0;
+  color: #606d76;
+  font-weight: 400;
+}
+
+.keywords,
+.courses {
+  margin: 0.5em 0;
+}
+
+.keywords li,
+.courses li {
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+  padding: 4px 5px 5px;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: #3e6d8e;
+  background-color: #dfeaf1;
+  border: 0 solid #dfeaf1;
+  white-space: nowrap;
+}
+
+.keywords li:hover,
+.courses li:hover {
+  background: #dfeaf0;
+}
+
+.highlights {
+  margin: 1em 0 0 0;
+}
+
+.highlights > li > p {
+  margin-bottom: 0.5em;
+}
+
+.item {
+  overflow: hidden;
+}
+
+.gpa {
+  clear: both;
+  padding-bottom: 0.5em;
+}
+
+.fa.social {
+  font-size: 1.1em;
+}
+
+/* Social Media Brand Colors */
+
+.google-plus {
+  color: #dd4b39;
+}
+
+.tumblr {
+  color: #32506d;
+}
+
+.foursquare {
+  color: #0072b1;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.linkedin {
+  color: #007bb6;
+}
+
+.pinterest {
+  color: #cb2027;
+}
+
+.dribbble {
+  color: #ea4c89;
+}
+
+.instagram {
+  color: #517fa4;
+}
+
+.twitter {
+  color: #00aced;
+}
+
+.soundcloud {
+  color: #ff3a00;
+}
+
+.wordpress {
+  color: #21759b;
+}
+
+.youtube {
+  color: #bb0000;
+}
+
+.github {
+  color: #171515;
+}
+
+.stack-overflow {
+  color: #828386;
+  position: relative;
+}
+
+.flickr {
+  color: #ff0084;
+}
+
+.reddit {
+  color: #ff4500;
+}
+
+.hacker-news {
+  color: #ff6600;
+}
+
+.stack-overflow::after {
+  position: absolute;
+  left: 0;
+  content: "\f16c";
+  color: #f68a1f;
+  overflow: hidden;
+  height: 100%;
+}
+
+.telegram {
+  color: #2291c3;
+}
+
+#languages .item,
+#skills .item,
+#interests .item {
+  width: 15em;
+  padding: 0 0.5em 0.5em 0;
+  border-bottom: none;
+}
+
+#skills .item {
+  width: 16em;
+}
+
+#skills .item .keywords {
+  width: 15em;
+}
+
+/* Skill chart */
+
+.level {
+  margin-bottom: 0.5em;
+}
+
+.level em {
+  padding-left: 0.2em;
+}
+
+.level .bar {
+  border: 1px solid #ddd;
+  display: block;
+  width: 10em;
+  height: 5px;
+  position: relative;
+}
+
+.level .bar::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  background: black;
+  height: 5px;
+}
+
+.level.beginner .bar::after {
+  background: #eb5f51;
+  width: 2.5em;
+}
+
+.level.intermediate .bar::after {
+  background: #ffdf1f;
+  width: 5em;
+}
+
+.level.advanced .bar::after,
+.level.fluent .bar::after {
+  background: #5cb85c;
+  width: 7.5em;
+}
+
+.level.master .bar::after,
+.level.native.speaker .bar::after {
+  background: #59c596;
+  width: 10em;
+}
+
+#references .item {
+  padding-left: 0.5em;
+  border-left: 5px solid #ff6d1f;
+}
+
+.section > section > section {
+  margin-bottom: 1rem;
+}
+
+/******************
+*	HELPER CLASSES
+******************/
+
+.clear::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.display {
+  display: block;
+  opacity: 1 !important;
+}
+
+/****************
+*		TABLET
+****************/
+
+@media screen and (min-width: 602px) {
+  #resume {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section header .date {
+    float: right;
+    font-weight: 600;
+    color: #000;
+  }
+}
+
+/****************
+*		LAPTOP
+****************/
+
+@media screen and (min-width: 1025px) {
+  li {
+    margin-left: 1.5em;
+  }
+  #resume {
+    width: 820px;
+    margin: 2rem auto;
+  }
+  .section > section > header .space-left {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .section > section:not(.main-summary) {
+    margin-left: 1.67rem;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "| ";
+  }
+  .header-left {
+    float: left;
+    width: 70%;
+    word-break: normal;
+  }
+  .section header .date {
+    padding: 0.2em;
+  }
+  .display {
+    display: none;
+  }
+  .display:not(.none) {
+    display: block;
+  }
+}
+
+@media print {
+  #profiles a:not(.hide-href-print)::after{
+    content: " (" attr(href) ") ";
+  }
+  #resume {
+    margin: 0.1em;
+    padding: 0.1em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    line-height: 1.25;
+  }
+  @page {
+    margin: 1cm 1.4cm;
+  }
+  .item-count {
+    display: none;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "at ";
+  }
+  .main-summary {
+    padding: 0;
+    background: transparent;
+  }
+  .section {
+    margin: 0.8rem 0;
+    padding: 0;
+  }
+  .section header {
+    padding-bottom: 0.15rem;
+  }
+  .section .location {
+    padding-bottom: 0.15rem;
+  }
+  .section > section > section {
+    margin: 0 0 1em 0;
+  }
+  .section > section > section:last-of-type {
+    margin: 0;
+  }
+  .stack-overflow::after {
+    content: "";
+  }
+  .fa.social {
+    color: #828386;
+  }
+  ul {
+    margin-top: 0.4em;
+  }
+  ul,
+  li {
+    padding: 0;
+  }
+  ul.keywords li,
+  ul.courses li {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    background: transparent;
+  }
+  ul.keywords li::after,
+  ul.courses li::after {
+    padding: 0 0 0 0.1rem;
+    content: " |";
+  }
+  ul.keywords::before,
+  ul.courses::before {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  #skills .item {
+    width: calc(100% / 3);
+    padding: 0;
+  }
+  .highlights {
+    margin: 0.5em 0 0 0;
+  }
+  ul.keywords::before {
+    content: "Skills acquired: ";
+  }
+  #skills .keywords::before {
+    content: none;
+  }
+  .section p {
+    margin: 0;
+    padding: 0;
+  }
+  ul.courses::before {
+    content: "Major courses: ";
+  }
+  ul.keywords li:last-of-type::after,
+  ul.courses li:last-of-type::after {
+    content: "";
+  }
+  .level em {
+    font-style: normal;
+    padding: 0.1em 0;
+  }
+  .level .bar {
+    display: none;
+  }
+  #profiles .item {
+    padding: 0;
+  }
+  .item.display {
+    display: block;
+    opacity: 1 !important;
+  }
+  .fa-map-marker-alt:before {
+    padding-left: 0.1em;
+  }
+}
+
+  </style>
+  
+  </head>
+  <body>
+  
+  <div id="resume">
+    	<header id="header" class="clear">
+    		<img class="image" src="https://www.thatsjet.com/images/jet-anime-sm.jpg" alt="Jet Anderson" />
+    		<div class="middle">
+    			<h1 class="name">Jet Anderson</h1>
+    			<h2 class="label"></h2>
+    		</div>
+    
+    		<span class="location">
+    			<span class="city">North Plains,</span>
+    			<span class="region">Oregon</span>
+    			<span class="countryCode">US</span>
+    		</span>
+    
+    
+    		<div id="contact">
+    			<div class="email">
+    				<span class="far fa-envelope"></span>
+    				<a class="hide-href-print" href="mailto:jet@miletwo.net">jet@miletwo.net</a>
+    			</div>
+    			<div class="phone">
+    				<span class="fas fa-mobile-alt"></span>
+    				<a class="hide-href-print" href="tel:+1 714-767-0789">+1 714-767-0789</a>
+    			</div>
+    		</div>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-twitter twitter social"></span>
+    					<span class="url">
+    						<a target="_blank" href="http://twitter.com/thatsjet">@thatsjet</a>
+    					</span>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-linkedin linkedin social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://linkedin.com/in/thatsjet">/thatsjet</a>
+    					</span>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-github github social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://github.com/thatsjet">/thatsjet</a>
+    					</span>
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+    
+    	<section class="section">
+    		<section class="main-summary">
+    			<div><p><p>Hi, I'm Jet! My passion is leading today's software developers to write secure code as part of modern pipelines, at speed, and at scale, without missing a beat. I've been a software engineer for almost 30 years and believe that fixing security defects is better than just finding them. In my perfect world application security professionals are no longer needed as security is just another element of code quality.</p></p><p><p>I'm a creative problem solver with a wealth of experience managing people, processes, and technology. I'm a skilled communicator able to translate the verbose into the succinct and a hands-on leader.</p></p><p><p>In my free time I like overlanding in my Toyota Tundra, mixing cocktails from homemade extracts, and hacking all.the.things.</p></p></div>
+    		</section>
+    	</section>
+    
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Work Experience <span class="item-count">(12)</span></h2>
+      </header>
+    
+      <section id="work">
+        <section class="work-item">
+    
+          <label for="work-item-0"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">May 2022</span>
+              <span class="endDate">- Current</span>
+            </div>
+            <div class="position">Sr. Security Engineer - Devices &amp; Services Software Security</div>
+            <div class="company">Amazon</div>
+          </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Initially joined the Alexa organization assessing services in support of the Alexa ecosystem. For the last year supported the Smart Home Devices and Services organization assisting in the secure development of Amazon and 3rd party devices and related services to delight customers with the most advanced, easy to use, and secure smart home experience. As part of that effort I've been an active member of the Connectivity Standards Alliance serving on various technical subgroups including the Matter Threat Model Tiger Team, actively assessing the security of new features in the Matter SDK and specifications.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Participated with engineering teams in the secure design of new systems.</p></p></li>
+              <li><p><p>Conducted security reviews of critical applications in production to ensure a high security bar is maintained</p></p></li>
+              <li><p><p>Provided remediation guidance and training for software engineers to assist them in properly mitigating security weakness</p></p></li>
+              <li><p><p>Assisted development teams with threat modeling of their applications to ensure all weakness is identified and addressed with a risk-oriented mitigation strategy.</p></p></li>
+              <li><p><p>Created a standardized Python scripting assessment for hiring security engineers</p></p></li>
+              <li><p><p>Created a standardized Java code review assessment for hiring security engineers</p></p></li>
+              <li><p><p>Created a standardized threat modeling assessment template for hiring security engineers</p></p></li>
+              <li><p><p>Mentored junior team members and software engineers interested in software security</p></p></li>
+              <li><p><p>Participated as a member of the Connectivity Standards Alliance to further develop the Matter Threat Model as well as to provide security reviews of new features in the Matter SDK.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-1"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Aug 2018</span>
+              <span class="endDate">- Current</span>
+            </div>
+            <div class="position">Expert Application Security Engineer</div>
+            <div class="company">Nike, Inc.</div>
+          </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>In order to scale security education for application creators around the world I created the Code Doctor program encompassing instructor led courses, self-service informal learning content in the form of a weekly application security video podcast, and a hands-on laboratory experience fixing security defects in a gamified environment, all scaled and delivered to thousands of application creators worldwide.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Created a training program for developers to introduce fundamentals of secure coding delivered in-person to over 1,000 developers worldwide.</p></p></li>
+              <li><p><p>Host and producer of an internal podcast with 62 episodes at current publishing deep technical application security content to effectively scale delivery of security remediation and architecture best practices to a global audience.</p></p></li>
+              <li><p><p>Threat modeling, remediation guidance, consulting and architecture review.</p></p></li>
+              <li><p><p>Deployed a hands-on, gamified platform for security defect remediation education.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-2"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Apr 2018</span>
+              <span class="endDate">- Current</span>
+            </div>
+            <div class="position">Cyber Security Incident Coordinator</div>
+            <div class="company">Nike, Inc.</div>
+          </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Cyber incident investigation, containment, and remediation.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>I am unable to disclose any highlights of this role as they are confidential.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-3"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Nov 2017</span>
+              <span class="endDate">- Mar 2018</span>
+            </div>
+            <div class="position">Developer Evangelist</div>
+            <div class="company">SourceClear</div>
+          </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>SourceClear was a leading Software Composition Analysis platform. They were purchased by Veracode in April of 2018.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Engage the InfoSec community through attendance and networking at developer and security meetups.</p></p></li>
+              <li><p><p>Created the DevSecOpsLife YouTube channel, interviewing experts in AppSec and discussing solutions to the challenges we face.</p></p></li>
+              <li><p><p>Develop security tooling and engaging content around solving software security problems.</p></p></li>
+              <li><p><p>Publish content related to software security (see publications below).</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-4"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">May 2016</span>
+              <span class="endDate">- Nov 2017</span>
+            </div>
+            <div class="position">Application Security Architect</div>
+            <div class="company">Cambia Health Solutions</div>
+          </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Cambia Health Solutions is a group of more than 25 health care companies and includes software and mobile applications, health insurance, non-traditional health care marketplaces and delivery models, pharmacy benefit management, wellness solutions and more. I was brought on to bootstrap an Application Security program, introducing automated analysis built into the software development pipeline, training programs to turn developers into secure code champions, and policies &amp; procedures to tie it all together, all in months rather than years.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>When I started at Cambia there was no formal AppSec program. Security engineers would run adhoc SAST/DAST scans when requested but otherwise no process for continuous security. I pioneered the implementation of DevSecOps with SAST, DAST, and SCA in pipeline and by the end of my tenure had 88% of teams doing continuous security as part of CI/CD bringing average scan frequency across all apps to 7.6 scans per month.</p></p></li>
+              <li><p><p>Set up the company's first ever Capture the Flag event, demonstrating attack techniques to developers using BurpSuite, Postman, and NMAP to attack the OWASP Juice Shop.</p></p></li>
+              <li><p><p>Created a Secure Code Champions program to teach software developers, managers, and architects elements of a comprehensive application security program.</p></p></li>
+              <li><p><p>Spoke at 5 conferences/events since I started on topics from 'AppSec Zero to Hero' - how to create a program, launch it, and keep it running; to 'What's hiding in your app?' - a review of the open source dangers lurking in today's applications.</p></p></li>
+              <li><p><p>Conducted regular penetrations tests of web applications across the enterprise using BurpSuite, Postman, &amp; NMAP scripts to verify mitigation of results from Veracode scans third-party pentests as well as known vulnerabilities from open source findings.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-5"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Nov 2015</span>
+              <span class="endDate">- Apr 2016</span>
+            </div>
+            <div class="position">Solutions Architect</div>
+            <div class="company">Veracode, Inc.</div>
+          </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Veracode is a leader in the Gartner Magic Quadrant for Application Security testing. In my time there I worked with Americas biggest brands identifying risk in the SDLC and helping them design solutions that empower development teams to innovate quickly while identifying vulnerabilities and mitigating risk early.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Designed a solution to empower over 100 application teams at Sabre, Inc. to test software at the earliest stages of each Agile sprint, mitigating risk while it's still cost effective to fix it. Closed the largest freshman deal in Veracode history, a multi-year agreement nearly $1M in total revenue.</p></p></li>
+              <li><p><p>Coached the global Solution Architecture team on ways to engage earlier with software development groups vs. the typical route through information security, creating security champions during the design phase of projects.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-6"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">May 2014</span>
+              <span class="endDate">- Nov 2015</span>
+            </div>
+            <div class="position">Marketing Solutions Architect</div>
+            <div class="company">Hewlett Packard, Inc.</div>
+          </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>HP Software is a leader in the Gartner Magic Quadrant for Enterprise Content Management systems, digital personalization, and media asset management. My role was helping customers understand how to integrate digital solutions to automate their existing workflows, give marketing groups an understanding of customer sentiment, and empower content authors to deliver dynamic and personalized content, to the right person, at the right time.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Spearheaded a large-scale integration effort for FOX Entertainment, Inc., bringing together social media sentiment, targeted social media marketing, and media asset management built to scale for all of FOX's movie, television, and archive brands.</p></p></li>
+              <li><p><p>Successfully designed and kicked off a $7.2M engagement with Hilton Hotels Worldwide, integrating web content personalization, customer relationship management, upsell/cross-sell, and dynamic content.</p></p></li>
+              <li><p><p>Drove revenue generation to over 110% of plan 2 years in a row.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-7"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">May 2013</span>
+              <span class="endDate">- Apr 2014</span>
+            </div>
+            <div class="position">Development &amp; Operations Manager, Wholesale Banking</div>
+            <div class="company">U.S. Bancorp</div>
+          </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>US Bank is the national leader in wholesale lockbox processing. The platform I oversaw processed over $3.2 Billion per month in check and credit card payments for wholesale customers with 24x7 shift overlay in 9 operations centers across the United States. When I overtook the leadership role of this group they had no actionable disaster recovery plan, poor cross-functional collaboration, and a reputation within the company of not caring about the customer. I oversaw a successful transformation across all of these areas making the group into a respected and high performing asset to the company.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Built DR platforms and recovery strategies from the ground up, successfully demonstrating 100% recovery within 6  months of owning the team.</p></p></li>
+              <li><p><p>Went from unstable platform with no recovery plan to 99.999% (5 nines) availability within the first 6 months.</p></p></li>
+              <li><p><p>Implemented first ever security audit, assuring compliance with PCI, SOX, and all regulatory standards within 9 months.</p></p></li>
+              <li><p><p>Implemented Agile development methodologies, streamlined development processes, and improved time to delivery, code quality, and code reuse. Time to deliver customizations per customer went from 4 months on average to about 2 weeks with 50% fewer defects.</p></p></li>
+              <li><p><p>Created team training, engagement, and collaboration strategies earning the team respect and trust.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-8"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Nov 2007</span>
+              <span class="endDate">- Apr 2013</span>
+            </div>
+            <div class="position">Enterprise Content Solutions Architect</div>
+            <div class="company">U.S. Bancorp</div>
+          </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>The Enterprise Content Management group at US Bank maintains a platform and development for over 300 web properties across the banking enterprise. The platform supports the creation and delivery of content for 1000+ users on a 24x7 zero latency delivery schedule allowing the business to drive content marketing change and configuration management at the speed of business. Before I joined the team had developers manually deploying their own code to production, maintaining their own databases, and certifying their own code.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Created an administration and recovery team to certify all builds prior to deployment, maintain the platform, and ensure segregation of duties.</p></p></li>
+              <li><p><p>Built self-serve and automated configuration management processes for developers to implement changes ensuring accuracy and instant automated rollback in case of error.</p></p></li>
+              <li><p><p>Spearheaded and completed the successful migration off end-of-life software versions running on physical devices to modern versions on scalable virtual machines.</p></p></li>
+              <li><p><p>Documented all new administration processes, recovery plans, and hired and trained staff to maintain platforms for this newly created team managing administration and training for this enterprise platform.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-9"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Dec 2006</span>
+              <span class="endDate">- Nov 2007</span>
+            </div>
+            <div class="position">VP, Director of Engineering</div>
+            <div class="company">Earthbound Media Group</div>
+          </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Prior to when I joined, Earthbound was a boutique marketing and design firm focused largely on one client in the Southern California Higher Education space. I helped transform Earthbound into a digital media solution provider with new business in entertainment,  retail, and higher ed.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Built a strong team starting with 1 Jr. web designer to over 10 seasoned web, application, and multimedia engineering professionals.</p></p></li>
+              <li><p><p>Drove project execution and business development for engineering engagements bringing in over $1.4 Million dollars in the year I was there.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-10"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Jan 2005</span>
+              <span class="endDate">- Dec 2006</span>
+            </div>
+            <div class="position">Owner, Principal Solutions Architect</div>
+            <div class="company">Miletwo, Inc.</div>
+          </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>After starting my career in software development I quickly became a highly sought after architect of web content management solutions for some of the worlds biggest brands such as:</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Qualcomm, Inc. - Converted outdated and home grown legacy content management solution to Interwoven TeamSite, an enterprise solution. Created a team to convert all legacy content onto the new platform and built templating and workflow solutions to allow the team at Qualcomm to maintain going forward.</p></p></li>
+              <li><p><p>DOW Chemical - Oversaw a complete site conversion of over 5,000 pages of content in under 3 months.</p></p></li>
+              <li><p><p>Northrop Grumman - Built a new content management system from the ground up, trained a team of content editors, and launched the site for a classified aerospace project near Washington, DC.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-11"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Jan 1996</span>
+              <span class="endDate">- Jan 2005</span>
+            </div>
+            <div class="company">Previous Experience</div>
+          </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>In the years prior to owning my business I also held the following roles:</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Sr. Application Engineer, TeamSite - AmerisourceBergen Corporation, 2000-2005</p></p></li>
+              <li><p><p>Sr. Art Director, Human Factors - US Interactive, 1998-2000</p></p></li>
+              <li><p><p>User Interface Designer - GDI (Garg Data International), 1996-1998</p></p></li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Projects <span class="item-count">(2)</span></h2>
+      </header>
+      <section id="projects">
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">OWASP Logging Vocabulary - Author</div>
+          </header>
+          <span class="website">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Logging_Vocabulary_Cheat_Sheet.md">https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Logging_Vocabulary_Cheat_Sheet.md</a>
+          </span>
+          <div class="item">
+          </div>
+        </section>
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">OWASP Secrets Management Cheat Sheet - Contributor</div>
+          </header>
+          <span class="website">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Secrets_Management_CheatSheet.md">https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Secrets_Management_CheatSheet.md</a>
+          </span>
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Education <span class="item-count">(1)</span></h2>
+      </header>
+    
+      <section id="education">
+        <section class="education-item">
+          <header class="clear">
+            <div class="date">
+              <span class="endDate">
+              - Current
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="area">
+                Graphic Design
+              </div>
+              <div class="institution">
+                Platt College of Art
+              </div>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>major: Graphic Design</li>
+            <li>minor: Fine Art</li>
+          </ul>
+    
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+      <section class="section">
+        <header>
+          <h2 class="section-title">Awards</h2>
+        </header>
+        <section id="awards">
+            <section class="award-item">
+                <label for="award-item-0"></label>
+    
+              <header class="clear">
+                <div class="header-left">
+                    <div class="title">
+                      Oh SNAP! There&#x27;s Crap In Your App
+                    </div>
+                    <div class="awarder">
+                      RSA Conference, 2018
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <div class="summary"><p><p>Today’s developers download awesome libraries for their favorite language to do almost anything. We scan our code for flaws with static analysis tools, but what about all the stuff we didn’t write? Learn how to find and track the crap in your app, and how to avoid getting pwned because you let a nasty in the back door with that library that does the really cool thing you couldn’t live without.</p></p></div>
+              </div>
+            </section>
+            <section class="award-item">
+                <label for="award-item-1"></label>
+    
+              <header class="clear">
+                <div class="header-left">
+                    <div class="title">
+                      Securing Your Code from Zero to Hero
+                    </div>
+                    <div class="awarder">
+                      Jenkins World, 2017
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <div class="summary"><p><p>With a shift to the cloud, our software needed to be bullet-proof against security defects in a fast-paced DevOps model. The problem: how to build in security along the entire pipeline, keep developers focused on writing great code, and do it all with speed and at scale.</p></p></div>
+              </div>
+            </section>
+            <section class="award-item">
+                <label for="award-item-2"></label>
+    
+              <header class="clear">
+                <div class="header-left">
+                    <div class="title">
+                      Application security: From zero to hero
+                    </div>
+                    <div class="awarder">
+                      O&#x27;Reilly Open Source Convention, 2017
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <div class="summary"><p><p>Application security is tough. But while the rest of the world tries to solve the problems of insecure software with firewalls and intrusion detection, Jeremy Anderson explains how to solve the problem where it starts: at the code that defines it. Join Jeremy to learn how to fix code security defects when they’re created instead of during production when it’s already too late.</p></p></div>
+              </div>
+            </section>
+            <section class="award-item">
+                <label for="award-item-3"></label>
+    
+              <header class="clear">
+                <div class="header-left">
+                    <div class="title">
+                      Application security: From zero to hero
+                    </div>
+                    <div class="awarder">
+                      NH ISAC, 2016
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <div class="summary"><p><p>Application security is tough. But while the rest of the world tries to solve the problems of insecure software with firewalls and intrusion detection, Jeremy Anderson explains how to solve the problem where it starts: at the code that defines it. Join Jeremy to learn how to fix code security defects when they’re created instead of during production when it’s already too late.</p></p></div>
+              </div>
+            </section>
+        </section>
+      </section>
+      <section class="section">
+        <header>
+          <h2 class="section-title">Certificates</h2>
+        </header>
+        <section id="certificates">
+            <section class="certificate-item">
+              <header class="clear">
+                <div class="header-left">
+                    <div class="name">
+                      CSSLP
+                    </div>
+                    <div class="issuer">
+                      ISC2
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <span class="url">
+                    <span class="fas fa-external-link-alt"></span>
+                    <a target="_blank" href="https://www.credly.com/badges/24188c58-46b0-40a7-8df1-9b883fee233e">https://www.credly.com/badges/24188c58-46b0-40a7-8df1-9b883fee233e</a>
+                  </span>
+              </div>
+            </section>
+            <section class="certificate-item">
+              <header class="clear">
+                <div class="header-left">
+                    <div class="name">
+                      GWAPT (expired)
+                    </div>
+                    <div class="issuer">
+                      GIAC
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <span class="url">
+                    <span class="fas fa-external-link-alt"></span>
+                    <a target="_blank" href="https://www.credly.com/badges/df6d5c2c-c8ae-452e-8c97-386e80d4a159">https://www.credly.com/badges/df6d5c2c-c8ae-452e-8c97-386e80d4a159</a>
+                  </span>
+              </div>
+            </section>
+        </section>
+      </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Publications</h2>
+      </header>
+      <section id="publications">
+        <section class="publication-item">
+          <label for="publication-item-0"></label>
+    
+          <header class="clear">
+            <span class="date">
+              9 Jan 2018
+            </span>
+            <div class="header-left">
+              <span class="name">
+                <span class="website">
+                  <span class="fas fa-external-link-alt"></span>
+                  <a target="_blank" href="https://www.veracode.com/blog/secure-development/three-easy-steps-devsecops">Three Easy Steps to DevSecOps</a>
+                </span>
+              </span>
+              <span class="publisher">
+                in www.veracode.com
+              </span>
+            </div>
+           
+          </header>
+    
+          <div class="item">
+            <div class="summary"><p><p>There’s a lot being discussed these days about secure DevOps. What does it mean to do continuous integration and deployment in a secure way? Is it about securing the pipeline itself? Or, is there more to it than that? I have your back. There are just three basic steps to DevSecOps...</p></p></div>
+          </div>
+        </section>
+        <section class="publication-item">
+          <label for="publication-item-1"></label>
+    
+          <header class="clear">
+            <span class="date">
+              19 Dec 2017
+            </span>
+            <div class="header-left">
+              <span class="name">
+                <span class="website">
+                  <span class="fas fa-external-link-alt"></span>
+                  <a target="_blank" href="https://www.veracode.com/blog/security-news/whats-your-crypto-currency-wallet">What&#x27;s in your Crypto Currency Wallet?</a>
+                </span>
+              </span>
+              <span class="publisher">
+                in www.veracode.com
+              </span>
+            </div>
+           
+          </header>
+    
+          <div class="item">
+            <div class="summary"><p><p>Given all of the hoopla about digital currencies these days, I decided to do a little digging into the relative security of cryptocurrency related open source projects...</p></p></div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title' class='section-title'>Interests</h2>
+      </header>
+      <section id="interests">
+        <div class="item">
+          <h3 class="name">
+            Ultralight backpacking, cooking, cocktail mixology, and hacking all.the.things
+          </h3>
+        </div>
+      </section>
+    </section>
+
+  </body>
+</html>
