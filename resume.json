@@ -35,10 +35,10 @@
 	},
 	"work": [
 		{
-			"name": "GEICO",
-			"position": "Distinguished Engineer, Product Security",
-			"website": "https://www.geico.com",
-			"startDate": "2024-11/-07",
+			"company": "GEICO",
+			"position": "Distinguished Engineer - Product Security",
+			"url": "https://www.geico.com",
+			"startDate": "2024-11-07",
 			"summary": "Spearheaded transformative initiatives to enhance product security by shifting secure design reviews to the ideation phase, reducing compliance risks and enabling early risk mitigation. Implemented automated security scanning across the entire SDLC, from IDE to artifact repositories, significantly decreasing production security defects. Streamlined cyber engagement by developing an AI-powered Slack bot with RAG augmentation, providing a single, intelligent interface for associates to access cyber resources, track requests, and navigate policies. Leveraged AI to automate security reviews of developer backlogs, optimizing resource allocation and prioritizing high-risk projects.",
 			"highlights": [
 				"Worked with product owners and developer partners to move security review engagement to ideation phase of product security lifecycle. It was previously occurring just prior to production release as a compliance requirement to satisfy regulators.",
@@ -48,9 +48,9 @@
 			]
 		},
 				{
-			"name": "Amazon",
+			"company": "Amazon",
 			"position": "Sr. Security Engineer - Devices & Services Software Security",
-			"website": "https://www.amazon.com",
+			"url": "https://www.amazon.com",
 			"startDate": "2022-05-23",
 			"endDate": "2024-11-05",
 			"summary": "Initially joined the Alexa organization assessing services in support of the Alexa ecosystem. For the last year supported the Smart Home Devices and Services organization assisting in the secure development of Amazon and 3rd party devices and related services to delight customers with the most advanced, easy to use, and secure smart home experience. As part of that effort I've been an active member of the Connectivity Standards Alliance serving on various technical subgroups including the Matter Threat Model Tiger Team, actively assessing the security of new features in the Matter SDK and specifications.",
@@ -67,9 +67,9 @@
 			]
 		},
 		{
-			"name": "Nike, Inc.",
+			"company": "Nike, Inc.",
 			"position": "Expert Application Security Engineer",
-			"website": "https://www.nike.com",
+			"url": "https://www.nike.com",
 			"startDate": "2018-08-01",
 			"endDate": "2022-05-23",
 			"summary": "In order to scale security education for application creators around the world I created the Code Doctor program encompassing instructor led courses, self-service informal learning content in the form of a weekly application security video podcast, and a hands-on laboratory experience fixing security defects in a gamified environment, all scaled and delivered to thousands of application creators worldwide.",
@@ -81,9 +81,9 @@
 			]
 		},
 		{
-			"name": "Nike, Inc.",
+			"company": "Nike, Inc.",
 			"position": "Cyber Security Incident Coordinator",
-			"website": "https://www.nike.com",
+			"url": "https://www.nike.com",
 			"startDate": "2018-04-11",
 			"endDate": "2018-08-01",
 			"summary": "Cyber incident investigation, containment, and remediation.",
@@ -92,9 +92,9 @@
 			]
 		},
 		{
-			"name": "SourceClear",
+			"company": "SourceClear",
 			"position": "Developer Evangelist",
-			"website": "https://www.sourceclear.com",
+			"url": "https://www.sourceclear.com",
 			"startDate": "2017-11-05",
 			"endDate": "2018-03-09",
 			"summary": "SourceClear was a leading Software Composition Analysis platform. They were purchased by Veracode in April of 2018.",
@@ -106,9 +106,9 @@
 			]
 		},
 		{
-			"name": "Cambia Health Solutions",
+			"company": "Cambia Health Solutions",
 			"position": "Application Security Architect",
-			"website": "https://www.cambiahealth.com",
+			"url": "https://www.cambiahealth.com",
 			"startDate": "2016-05-13",
 			"endDate": "2017-11-02",
 			"summary": "Cambia Health Solutions is a group of more than 25 health care companies and includes software and mobile applications, health insurance, non-traditional health care marketplaces and delivery models, pharmacy benefit management, wellness solutions and more. I was brought on to bootstrap an Application Security program, introducing automated analysis built into the software development pipeline, training programs to turn developers into secure code champions, and policies & procedures to tie it all together, all in months rather than years.",
@@ -121,9 +121,9 @@
 			]
 		},
 		{
-			"name": "Veracode, Inc.",
+			"company": "Veracode, Inc.",
 			"position": "Solutions Architect",
-			"website": "https://www.veracode.com",
+			"url": "https://www.veracode.com",
 			"startDate": "2015-11-16",
 			"endDate": "2016-04-16",
 			"summary": "Veracode is a leader in the Gartner Magic Quadrant for Application Security testing. In my time there I worked with Americas biggest brands identifying risk in the SDLC and helping them design solutions that empower development teams to innovate quickly while identifying vulnerabilities and mitigating risk early.",
@@ -133,9 +133,9 @@
 			]
 		},
 		{
-			"name": "Hewlett Packard, Inc.",
+			"company": "Hewlett Packard, Inc.",
 			"position": "Marketing Solutions Architect",
-			"website": "https://www.hp.com",
+			"url": "https://www.hp.com",
 			"startDate": "2014-05-01",
 			"endDate": "2015-11-16",
 			"summary": "HP Software is a leader in the Gartner Magic Quadrant for Enterprise Content Management systems, digital personalization, and media asset management. My role was helping customers understand how to integrate digital solutions to automate their existing workflows, give marketing groups an understanding of customer sentiment, and empower content authors to deliver dynamic and personalized content, to the right person, at the right time.",
@@ -146,9 +146,9 @@
 			]
 		},
 		{
-			"name": "U.S. Bancorp",
+			"company": "U.S. Bancorp",
 			"position": "Development & Operations Manager, Wholesale Banking",
-			"website": "https://www.usbank.com",
+			"url": "https://www.usbank.com",
 			"startDate": "2013-05-01",
 			"endDate": "2014-04-30",
 			"summary": "US Bank is the national leader in wholesale lockbox processing. The platform I oversaw processed over $3.2 Billion per month in check and credit card payments for wholesale customers with 24x7 shift overlay in 9 operations centers across the United States. When I overtook the leadership role of this group they had no actionable disaster recovery plan, poor cross-functional collaboration, and a reputation within the company of not caring about the customer. I oversaw a successful transformation across all of these areas making the group into a respected and high performing asset to the company.",
@@ -161,9 +161,9 @@
 			]
 		},
 		{
-			"name": "U.S. Bancorp",
+			"company": "U.S. Bancorp",
 			"position": "Enterprise Content Solutions Architect",
-			"website": "https://www.usbank.com",
+			"url": "https://www.usbank.com",
 			"startDate": "2007-11-17",
 			"endDate": "2013-04-30",
 			"summary": " The Enterprise Content Management group at US Bank maintains a platform and development for over 300 web properties across the banking enterprise. The platform supports the creation and delivery of content for 1000+ users on a 24x7 zero latency delivery schedule allowing the business to drive content marketing change and configuration management at the speed of business. Before I joined the team had developers manually deploying their own code to production, maintaining their own databases, and certifying their own code.",
@@ -175,9 +175,9 @@
 			]
 		},
 		{
-			"name": "Earthbound Media Group",
+			"company": "Earthbound Media Group",
 			"position": "VP, Director of Engineering",
-			"website": "https://www.facebook.com/earthboundmediagroup/",
+			"url": "https://www.facebook.com/earthboundmediagroup/",
 			"startDate": "2006-12-01",
 			"endDate": "2007-11-01",
 			"summary": "Prior to when I joined, Earthbound was a boutique marketing and design firm focused largely on one client in the Southern California Higher Education space. I helped transform Earthbound into a digital media solution provider with new business in entertainment,  retail, and higher ed.",
@@ -187,9 +187,9 @@
 			]
 		},
 		{
-			"name": "Miletwo, Inc.",
+			"company": "Miletwo, Inc.",
 			"position": "Owner, Principal Solutions Architect",
-			"website": "www.miletwo.net",
+			"url": "www.miletwo.net",
 			"startDate": "2005-01-01",
 			"endDate": "2006-12-01",
 			"summary": "After starting my career in software development I quickly became a highly sought after architect of web content management solutions for some of the worlds biggest brands such as:",
@@ -200,9 +200,9 @@
 			]
 		},
 		{
-			"name": "Previous Experience",
+			"company": "Previous Experience",
 			"position": "Previous Experience",
-			"website": "miletwo.net",
+			"url": "miletwo.net",
 			"startDate": "1996-01-01",
 			"endDate": "2005-01-01",
 			"summary": "In the years prior to owning my business I also held the following roles:",

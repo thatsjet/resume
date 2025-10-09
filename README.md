@@ -30,3 +30,11 @@ Location: Portland, Oregon, USA
     - will render as html - just print from preview to save PDF. Could never get PDF export feature to work correctly.
 - add override.css file to html output
     - `<link rel="stylesheet" href="override.css">`
+
+
+***Notes:***
+
+Schema is WRONG! Or... themes don't match schema. Whatever.
+
+- instead of "name" in work item for company use "company"
+- instead of "website" as listed in theme github use "url" as indicated in schema
