@@ -3,11 +3,10 @@
   "type": "module",
   "scripts": {
     "init": "resumed init",
-    "start": "resumed --theme theme-local"
+    "start": "resumed"
   },
   "dependencies": {
     "resumed": "^3.0.1",
-    "theme-local": "file:./theme",
     "validator": "^13.12.0"
   }
 }
