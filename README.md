@@ -16,7 +16,7 @@ Location: Portland, Oregon, USA
 
 ## Profiles
 
-[Twitter - @thatsjet](http://twitter.com/thatsjet)  
+[X (formerly Twitter) - @thatsjet](http://x.com/thatsjet)  
 [LinkedIn - /thatsjet](https://linkedin.com/in/thatsjet)  
 [GitHub - /thatsjet](https://github.com/thatsjet)  
 
