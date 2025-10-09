@@ -19,3 +19,14 @@ Location: Portland, Oregon, USA
 [LinkedIn - /thatsjet](https://linkedin.com/in/thatsjet)  
 [GitHub - /thatsjet](https://github.com/thatsjet)  
 
+## How To Use
+*Because I keep forgetting how to between updates*
+
+- `$ npm install resumed`
+    - [(based on original `resume-cli` , more actively maintained)]((https://github.com/rbardini/resumed))
+- `$ npm install jsonresume-theme-stackoverflow`
+    - https://registry.jsonresume.org/thomasdavis?theme=stackoverflow
+- `$ resumed`
+    - will render as html - just print from preview to save PDF. Could never get PDF export feature to work correctly.
+- add override.css file to html output
+    - `<link rel="stylesheet" href="override.css">`

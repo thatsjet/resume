@@ -1,13 +1,13 @@
 {
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "init": "resumed init",
+    "start": "resumed --theme theme-local"
+  },
   "dependencies": {
-    "jsonresume-theme-caffeine": "^1.2.3",
-    "jsonresume-theme-class": "^0.1.2",
-    "jsonresume-theme-elegant": "^1.16.1",
-    "jsonresume-theme-even": "^0.16.1",
-    "jsonresume-theme-flat": "^0.3.7",
-    "jsonresume-theme-short": "^0.1.7",
-    "jsonresume-theme-stackoverflow": "^2.0.2",
     "resumed": "^3.0.1",
+    "theme-local": "file:./theme",
     "validator": "^13.12.0"
   }
 }

@@ -1,11 +1,14 @@
 {
+	"meta": {
+		"theme": "jsonresume-theme-stackoverflow"
+	},
 	"basics": {
 		"name": "Jet Anderson",
 		"image": "https://www.thatsjet.com/images/jet-anime-sm.jpg",
 		"email": "jet@miletwo.net",
 		"phone": "+1 714-767-0789",
 		"url": "http://thatsjet.com",
-		"summary": "Hi, I'm Jet! My passion is leading today's software developers to write secure code as part of modern pipelines, at speed, and at scale, without missing a beat. I've been a software engineer for almost 30 years and believe that fixing security defects is better than just finding them. In my perfect world application security professionals are no longer needed as security is just another element of code quality. \n\n I'm a creative problem solver with a wealth of experience managing people, processes, and technology. I'm a skilled communicator able to translate the verbose into the succinct and a hands-on leader.\n\n In my free time I like overlanding in my Toyota Tundra, mixing cocktails from homemade extracts, and hacking all.the.things.",
+		"summary": "Hi, I'm Jet! My passion is leading today's software creators to develop secure solutions, at speed, and at scale, without missing a beat. I've been a software engineer for almost 30 years and believe that there is in fact a necessary balance between fixing all the \"vulnerabilities\" and reducing actual risk. In my perfect world application security professionals are no longer needed as security is just another element of code quality. \n\n I'm a creative problem solver with a wealth of experience managing people, processes, and technology. I'm a skilled communicator able to translate the verbose into the succinct and a hands-on leader.\n\n In my free time I like overlanding in my Toyota Tundra, mixing cocktails from homemade extracts, and off-grid communications.",
 		"location": {
 			"address": "",
 			"postalCode": "",
@@ -14,9 +17,9 @@
 			"region": "Oregon"
 		},
 		"profiles": [{
-				"network": "Twitter",
+				"network": "X (formerly Twitter)",
 				"username": "@thatsjet",
-				"url": "http://twitter.com/thatsjet"
+				"url": "http://x.com/thatsjet"
 			},
       {
 				"network": "LinkedIn",
@@ -32,10 +35,24 @@
 	},
 	"work": [
 		{
+			"name": "GEICO",
+			"position": "Distinguished Engineer, Product Security",
+			"website": "https://www.geico.com",
+			"startDate": "2024-11/-07",
+			"summary": "Spearheaded transformative initiatives to enhance product security by shifting secure design reviews to the ideation phase, reducing compliance risks and enabling early risk mitigation. Implemented automated security scanning across the entire SDLC, from IDE to artifact repositories, significantly decreasing production security defects. Streamlined cyber engagement by developing an AI-powered Slack bot with RAG augmentation, providing a single, intelligent interface for associates to access cyber resources, track requests, and navigate policies. Leveraged AI to automate security reviews of developer backlogs, optimizing resource allocation and prioritizing high-risk projects.",
+			"highlights": [
+				"Worked with product owners and developer partners to move security review engagement to ideation phase of product security lifecycle. It was previously occurring just prior to production release as a compliance requirement to satisfy regulators.",
+				"Replaced code scanning tool that previously only functioned at build stage with a new tool scanning in IDE, pre-commit, in PR/merge, and in artifact repositories, resulting in massive decrease in security defects in production releases",
+				"Implemented automated AI security review of all planned items in developer backlog allowing for quick triage and application of limited human resources to review only high risk projects",
+				"Developed an LLM powered Slack bot augmented by a RAG to provide company associates with an intelligent front door receptionist capable of routing them to the appropriate team, giving them status of current in-process requests, and advise them on policy and procedures to simplify the intake process and delight our partners."
+			]
+		},
+				{
 			"name": "Amazon",
 			"position": "Sr. Security Engineer - Devices & Services Software Security",
 			"website": "https://www.amazon.com",
 			"startDate": "2022-05-23",
+			"endDate": "2024-11-05",
 			"summary": "Initially joined the Alexa organization assessing services in support of the Alexa ecosystem. For the last year supported the Smart Home Devices and Services organization assisting in the secure development of Amazon and 3rd party devices and related services to delight customers with the most advanced, easy to use, and secure smart home experience. As part of that effort I've been an active member of the Connectivity Standards Alliance serving on various technical subgroups including the Matter Threat Model Tiger Team, actively assessing the security of new features in the Matter SDK and specifications.",
 			"highlights": [
 				"Participated with engineering teams in the secure design of new systems.",
@@ -54,6 +71,7 @@
 			"position": "Expert Application Security Engineer",
 			"website": "https://www.nike.com",
 			"startDate": "2018-08-01",
+			"endDate": "2022-05-23",
 			"summary": "In order to scale security education for application creators around the world I created the Code Doctor program encompassing instructor led courses, self-service informal learning content in the form of a weekly application security video podcast, and a hands-on laboratory experience fixing security defects in a gamified environment, all scaled and delivered to thousands of application creators worldwide.",
 			"highlights": [
 				"Created a training program for developers to introduce fundamentals of secure coding delivered in-person to over 1,000 developers worldwide.",
@@ -67,6 +85,7 @@
 			"position": "Cyber Security Incident Coordinator",
 			"website": "https://www.nike.com",
 			"startDate": "2018-04-11",
+			"endDate": "2018-08-01",
 			"summary": "Cyber incident investigation, containment, and remediation.",
 			"highlights": [
 				"I am unable to disclose any highlights of this role as they are confidential."
@@ -182,8 +201,8 @@
 		},
 		{
 			"name": "Previous Experience",
-			"position": "",
-			"website": "",
+			"position": "Previous Experience",
+			"website": "miletwo.net",
 			"startDate": "1996-01-01",
 			"endDate": "2005-01-01",
 			"summary": "In the years prior to owning my business I also held the following roles:",
@@ -201,48 +220,13 @@
 			"studyType": "",
 			"courses": [
 				"major: Graphic Design",
-				"minor: Fine Art"
-			]
-		}
-	],
-  "publications": [{
-			"name": "Three Easy Steps to DevSecOps",
-			"publisher": "www.veracode.com",
-			"releaseDate": "2018-01-09",
-			"website": "https://www.veracode.com/blog/secure-development/three-easy-steps-devsecops",
-      "summary": "There’s a lot being discussed these days about secure DevOps. What does it mean to do continuous integration and deployment in a secure way? Is it about securing the pipeline itself? Or, is there more to it than that? I have your back. There are just three basic steps to DevSecOps..."
-		},
-		{
-			"name": "What's in your Crypto Currency Wallet?",
-			"publisher": "www.veracode.com",
-			"releaseDate": "2017-12-19",
-			"website": "https://www.veracode.com/blog/security-news/whats-your-crypto-currency-wallet",
-      "summary": "Given all of the hoopla about digital currencies these days, I decided to do a little digging into the relative security of cryptocurrency related open source projects..."
+				"minor: Computer Aided Design"
+			],
+			"startDate": "1994-08-01",
+			"endDate": "1996-05-01"
 		}
 	],
 
-  "awards": [
-    {
-      "title": "Oh SNAP! There's Crap In Your App",
-      "awarder": "RSA Conference, 2018",
-      "summary": "Today’s developers download awesome libraries for their favorite language to do almost anything. We scan our code for flaws with static analysis tools, but what about all the stuff we didn’t write? Learn how to find and track the crap in your app, and how to avoid getting pwned because you let a nasty in the back door with that library that does the really cool thing you couldn’t live without."
-    },
-    {
-      "title": "Securing Your Code from Zero to Hero",
-      "awarder": "Jenkins World, 2017",
-      "summary": "With a shift to the cloud, our software needed to be bullet-proof against security defects in a fast-paced DevOps model. The problem: how to build in security along the entire pipeline, keep developers focused on writing great code, and do it all with speed and at scale."
-    },
-    {
-		"title": "Application security: From zero to hero",
-		"awarder": "O'Reilly Open Source Convention, 2017",
-		"summary": "Application security is tough. But while the rest of the world tries to solve the problems of insecure software with firewalls and intrusion detection, Jeremy Anderson explains how to solve the problem where it starts: at the code that defines it. Join Jeremy to learn how to fix code security defects when they’re created instead of during production when it’s already too late."
-	  },
-	  {
-		"title": "Application security: From zero to hero",
-		"awarder": "NH ISAC, 2016",
-		"summary": "Application security is tough. But while the rest of the world tries to solve the problems of insecure software with firewalls and intrusion detection, Jeremy Anderson explains how to solve the problem where it starts: at the code that defines it. Join Jeremy to learn how to fix code security defects when they’re created instead of during production when it’s already too late."
-	  }
-	  ],
   	"certificates": [{
 		  "name": "CSSLP",
 		  "issuer": "ISC2",
@@ -261,8 +245,5 @@
 		"name": "OWASP Secrets Management Cheat Sheet - Contributor",
 		"description":"I wrote the sections related to detection and incident response in this recently released cheat sheet for the proper handling of secrets",
 		"url": "https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Secrets_Management_CheatSheet.md"
-	}],
-	"interests": [{
-		"name": "Ultralight backpacking, cooking, cocktail mixology, and hacking all.the.things"
 	}]
 }
