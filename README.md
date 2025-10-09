@@ -2,7 +2,7 @@
 # Jet Anderson
 Resume as code
 
-## [Published with JSON Resume CLI](https://jsonresume.org/)
+## [Published with resumed](https://github.com/rbardini/resumed/)
 View in the following formats:
  - [JSON](https://github.com/thatsjet/resume/blob/master/resume.json)
  - [HTML](https://html-preview.github.io/?url=https://github.com/thatsjet/resume/blob/master/resume.html)
