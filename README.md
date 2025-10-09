@@ -5,7 +5,7 @@ Resume as code
 ## [Published with JSON Resume CLI](https://jsonresume.org/)
 View in the following formats:
  - [JSON](https://github.com/thatsjet/resume/blob/master/resume.json)
- - [HTML](https://html-preview.github.io/?url=thatsjet/resume/blob/master/resume.html)
+ - [HTML](https://html-preview.github.io/?url=https://github.com/thatsjet/resume/blob/master/resume.html)
  - [PDF](https://github.com/thatsjet/resume/blob/master/Jet-Anderson.pdf)
 
 ## Contact
