@@ -47,10 +47,84 @@
   line-height: 1.25;
 }
 
+/* Add the missing "Expert" level fill. The theme ships level-bar rules for
+   beginner / intermediate / advanced / master / fluent / native-speaker but
+   not expert — so skills tagged "Expert" render with an empty bar. Map
+   Expert to the same teal as Master at 87.5% width: visibly less than Master
+   but in the same color family, so the ladder reads cleanly. */
+.level.expert .bar::after {
+  background: #59c596;
+  width: 8.75em;
+}
+
+/* Print mode — keep the chip + bar look that the theme strips by default.
+   The theme's @media print rules turn keyword chips into a comma-separated
+   inline list, hide the level bar entirely, and force flex-column layout on
+   skill items. Override those so macOS "Save as PDF" matches the screen
+   view (the whole reason we added chips in the first place). */
 @media print {
   #skills .item {
     break-inside: avoid;
     page-break-inside: avoid;
+    display: block;
+  }
+
+  /* Restore the chip styling on keyword pills */
+  #skills .keywords li {
+    background-color: #dfeaf1;
+    color: #3e6d8e;
+    padding: 4px 5px 5px;
+    margin: 2px 2px 2px 0;
+    font-size: 0.85rem;
+    line-height: 1.25;
+    white-space: normal;
+    display: inline-block;
+    border: 0 solid #dfeaf1;
+    /* Browsers strip background colors in print by default; this forces them
+       to honor the chip background. Both vendor-prefixed forms are needed
+       for older Safari/Chrome combos. */
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Kill the comma separators the theme adds between chips in print */
+  #skills .keywords li::after {
+    content: "";
+    padding: 0;
+  }
+
+  /* Kill the "Skills: " prefix the theme would otherwise add */
+  #skills .keywords::before {
+    content: none;
+  }
+
+  /* Restore the level bar (theme hides it entirely in print) and force its
+     fill colors to print. The fill is rendered via .level.X .bar::after with
+     a background color — browsers strip pseudo-element backgrounds in print
+     unless print-color-adjust:exact is set on an ancestor that the
+     pseudo-element inherits from. Setting it on .level cascades to .bar and
+     to .bar::after. */
+  .level {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .level .bar {
+    display: block !important;
+    border: 1px solid #ddd;
+    width: 10em;
+    height: 5px;
+    position: relative;
+  }
+  .level .bar::after {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Also force background printing at the section level so the chips render
+     in the PDF — without this rule the browser may decide to omit them. */
+  #skills {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 }
 
