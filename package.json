@@ -3,7 +3,9 @@
   "type": "module",
   "scripts": {
     "init": "resumed init",
-    "start": "resumed"
+    "start": "resumed",
+    "inject": "uv run inject-override.py",
+    "build": "resumed && uv run inject-override.py"
   },
   "dependencies": {
     "resumed": "^3.0.1",

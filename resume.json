@@ -4,11 +4,12 @@
 	},
 	"basics": {
 		"name": "Jet Anderson",
+		"label": "Distinguished Engineer — Product Security · Agentic-AI Security · Secure SDLC at Scale",
 		"image": "https://www.thatsjet.com/images/jet-anime-sm.jpg",
 		"email": "jet@miletwo.net",
 		"phone": "+1 714-767-0789",
 		"url": "http://thatsjet.com",
-		"summary": "Hi, I'm Jet! My passion is leading today's software creators to develop secure solutions, at speed, and at scale, without missing a beat. I've been a software engineer for almost 30 years and believe that there is in fact a necessary balance between fixing all the \"vulnerabilities\" and reducing actual risk. In my perfect world application security professionals are no longer needed as security is just another element of code quality. \n\n I'm a creative problem solver with a wealth of experience managing people, processes, and technology. I'm a skilled communicator able to translate the verbose into the succinct and a hands-on leader.\n\n In my free time I like overlanding in my Toyota Tundra, mixing cocktails from homemade extracts, and off-grid communications.",
+		"summary": "Hi, I'm Jet. I lead Product Security programs through the messy parts — the parts where the threat model changes faster than the policy can catch up. Right now that means agentic software development: code being written by agents, reviewed by agents, shipped by agents, and the security program has to keep up without becoming the slow thing in the room. \n\n I've spent three decades in software — the last decade in security — and I've found that the teams who win aren't the ones with the most controls. They're the ones who built security into the way the agents work in the first place. \n\n Distinguished Engineer at GEICO today. Conference speaker, OWASP contributor, host of a 62-episode AppSec podcast. Off the clock you'll find me overlanding the Tundra, building extracts for cocktails, or up on HF working a contact 4,000 miles away.",
 		"location": {
 			"address": "",
 			"postalCode": "",
@@ -39,12 +40,13 @@
 			"position": "Distinguished Engineer - Product Security",
 			"url": "https://www.geico.com",
 			"startDate": "2024-11-07",
-			"summary": "Spearheaded transformative initiatives to enhance product security by shifting secure design reviews to the ideation phase, reducing compliance risks and enabling early risk mitigation. Implemented automated security scanning across the entire SDLC, from IDE to artifact repositories, significantly decreasing production security defects. Streamlined cyber engagement by developing an AI-powered Slack bot with RAG augmentation, providing a single, intelligent interface for associates to access cyber resources, track requests, and navigate policies. Leveraged AI to automate security reviews of developer backlogs, optimizing resource allocation and prioritizing high-risk projects.",
+			"summary": "Leading the transformation of GEICO's Product Security function from a compliance-oriented gate into an engineering-led, AI-fluent center of excellence. Mandate: redefine how security is delivered across the product lifecycle in the era of agentic software development.",
 			"highlights": [
-				"Worked with product owners and developer partners to move security review engagement to ideation phase of product security lifecycle. It was previously occurring just prior to production release as a compliance requirement to satisfy regulators.",
-				"Replaced code scanning tool that previously only functioned at build stage with a new tool scanning in IDE, pre-commit, in PR/merge, and in artifact repositories, resulting in massive decrease in security defects in production releases",
-				"Implemented automated AI security review of all planned items in developer backlog allowing for quick triage and application of limited human resources to review only high risk projects",
-				"Developed an LLM powered Slack bot augmented by a RAG to provide company associates with an intelligent front door receptionist capable of routing them to the appropriate team, giving them status of current in-process requests, and advise them on policy and procedures to simplify the intake process and delight our partners."
+				"Rewrote the Secure Software Development Lifecycle policy for the age of agentic software development — explicit expectations for product teams *and* their agentic dev systems, written so an agent can read and follow it, not a PDF that gets ignored.",
+				"Moved security review engagement upstream to the ideation phase of the product lifecycle. Previously it ran just before production release as a regulator-driven compliance gate.",
+				"Replaced a build-stage-only code scanner with a tool that scans in IDE, pre-commit, in PR/merge, and in artifact repositories. Repository coverage went from ~30% to 100% across the enterprise, with a corresponding drop in security defects reaching production.",
+				"Built an AI-driven security review of every planned item in the developer backlog — auto-triages routine work and surfaces only high-risk projects for human review, letting limited security headcount land where it actually moves risk.",
+				"Designed an LLM-powered Slack bot, augmented by a RAG over policy and procedure, that acts as the intelligent front door to Product Security — routes associates to the right team, returns status on in-flight requests, and answers policy questions inline."
 			]
 		},
 				{
@@ -53,17 +55,13 @@
 			"url": "https://www.amazon.com",
 			"startDate": "2022-05-23",
 			"endDate": "2024-11-05",
-			"summary": "Initially joined the Alexa organization assessing services in support of the Alexa ecosystem. For the last year supported the Smart Home Devices and Services organization assisting in the secure development of Amazon and 3rd party devices and related services to delight customers with the most advanced, easy to use, and secure smart home experience. As part of that effort I've been an active member of the Connectivity Standards Alliance serving on various technical subgroups including the Matter Threat Model Tiger Team, actively assessing the security of new features in the Matter SDK and specifications.",
+			"summary": "Joined the Alexa organization assessing services across the Alexa ecosystem, then moved to Smart Home Devices and Services — securing the development of Amazon and 3rd-party devices plus the services behind them. As part of that work, served on the Connectivity Standards Alliance Matter Threat Model Tiger Team, assessing security of new features in the Matter SDK and the protocol specification itself.",
 			"highlights": [
-				"Participated with engineering teams in the secure design of new systems.",
-				"Conducted security reviews of critical applications in production to ensure a high security bar is maintained",
-				"Provided remediation guidance and training for software engineers to assist them in properly mitigating security weakness",
-				"Assisted development teams with threat modeling of their applications to ensure all weakness is identified and addressed with a risk-oriented mitigation strategy.",
-				"Created a standardized Python scripting assessment for hiring security engineers",
-				"Created a standardized Java code review assessment for hiring security engineers",
-				"Created a standardized threat modeling assessment template for hiring security engineers",
-				"Mentored junior team members and software engineers interested in software security",
-				"Participated as a member of the Connectivity Standards Alliance to further develop the Matter Threat Model as well as to provide security reviews of new features in the Matter SDK."
+				"Represented Amazon on the Connectivity Standards Alliance Matter Threat Model Tiger Team — contributed to the Matter threat model and reviewed security of new features in the Matter SDK and specifications.",
+				"Partnered with engineering teams on the secure design of new systems and on threat modeling of in-flight applications — risk-oriented, not checkbox-driven.",
+				"Conducted security reviews of critical production applications and delivered remediation guidance and training to the engineers fixing the findings.",
+				"Built the team's standardized hiring assessments for security engineers — Python scripting, Java code review, and threat modeling — now part of the hiring loop.",
+				"Mentored junior team members and software engineers crossing over into security."
 			]
 		},
 		{
@@ -88,7 +86,7 @@
 			"endDate": "2018-08-01",
 			"summary": "Cyber incident investigation, containment, and remediation.",
 			"highlights": [
-				"I am unable to disclose any highlights of this role as they are confidential."
+				"Role details under NDA."
 			]
 		},
 		{
@@ -117,7 +115,7 @@
 				"Set up the company's first ever Capture the Flag event, demonstrating attack techniques to developers using BurpSuite, Postman, and NMAP to attack the OWASP Juice Shop.",
 				"Created a Secure Code Champions program to teach software developers, managers, and architects elements of a comprehensive application security program.",
 				"Spoke at 5 conferences/events since I started on topics from 'AppSec Zero to Hero' - how to create a program, launch it, and keep it running; to 'What's hiding in your app?' - a review of the open source dangers lurking in today's applications.",
-				"Conducted regular penetrations tests of web applications across the enterprise using BurpSuite, Postman, & NMAP scripts to verify mitigation of results from Veracode scans third-party pentests as well as known vulnerabilities from open source findings."
+				"Conducted regular penetration tests of web applications across the enterprise using BurpSuite, Postman, & NMAP scripts to verify mitigation of results from Veracode scans and third-party pentests, as well as known vulnerabilities from open source findings."
 			]
 		},
 		{
@@ -153,7 +151,7 @@
 			"endDate": "2014-04-30",
 			"summary": "US Bank is the national leader in wholesale lockbox processing. The platform I oversaw processed over $3.2 Billion per month in check and credit card payments for wholesale customers with 24x7 shift overlay in 9 operations centers across the United States. When I overtook the leadership role of this group they had no actionable disaster recovery plan, poor cross-functional collaboration, and a reputation within the company of not caring about the customer. I oversaw a successful transformation across all of these areas making the group into a respected and high performing asset to the company.",
 			"highlights": [
-				"Built DR platforms and recovery strategies from the ground up, successfully demonstrating 100% recovery within 6  months of owning the team.",
+				"Built DR platforms and recovery strategies from the ground up, successfully demonstrating 100% recovery within 6 months of owning the team.",
 				"Went from unstable platform with no recovery plan to 99.999% (5 nines) availability within the first 6 months.",
 				"Implemented first ever security audit, assuring compliance with PCI, SOX, and all regulatory standards within 9 months.",
 				"Implemented Agile development methodologies, streamlined development processes, and improved time to delivery, code quality, and code reuse. Time to deliver customizations per customer went from 4 months on average to about 2 weeks with 50% fewer defects.",
@@ -175,41 +173,82 @@
 			]
 		},
 		{
-			"company": "Earthbound Media Group",
-			"position": "VP, Director of Engineering",
-			"url": "https://www.facebook.com/earthboundmediagroup/",
-			"startDate": "2006-12-01",
-			"endDate": "2007-11-01",
-			"summary": "Prior to when I joined, Earthbound was a boutique marketing and design firm focused largely on one client in the Southern California Higher Education space. I helped transform Earthbound into a digital media solution provider with new business in entertainment,  retail, and higher ed.",
-			"highlights": [
-				"Built a strong team starting with 1 Jr. web designer to over 10 seasoned web, application, and multimedia engineering professionals.",
-				"Drove project execution and business development for engineering engagements bringing in over $1.4 Million dollars in the year I was there."
-			]
-		},
-		{
-			"company": "Miletwo, Inc.",
-			"position": "Owner, Principal Solutions Architect",
-			"url": "www.miletwo.net",
-			"startDate": "2005-01-01",
-			"endDate": "2006-12-01",
-			"summary": "After starting my career in software development I quickly became a highly sought after architect of web content management solutions for some of the worlds biggest brands such as:",
-			"highlights": [
-				"Qualcomm, Inc. - Converted outdated and home grown legacy content management solution to Interwoven TeamSite, an enterprise solution. Created a team to convert all legacy content onto the new platform and built templating and workflow solutions to allow the team at Qualcomm to maintain going forward.",
-				"DOW Chemical - Oversaw a complete site conversion of over 5,000 pages of content in under 3 months.",
-				"Northrop Grumman - Built a new content management system from the ground up, trained a team of content editors, and launched the site for a classified aerospace project near Washington, DC."
-			]
-		},
-		{
-			"company": "Previous Experience",
-			"position": "Previous Experience",
-			"url": "miletwo.net",
+			"company": "Earlier Career (1996–2007)",
+			"position": "Engineering Leadership · Solutions Architecture · Software Engineering",
+			"url": "https://www.miletwo.net",
 			"startDate": "1996-01-01",
-			"endDate": "2005-01-01",
-			"summary": "In the years prior to owning my business I also held the following roles:",
+			"endDate": "2007-11-01",
+			"summary": "Eleven years across engineering leadership, founder/owner solutions architecture, and software engineering roles. Built and led engineering teams, shipped enterprise content management platforms for Fortune 500 clients, and designed UI/UX for early-web applications.",
 			"highlights": [
-				"Sr. Application Engineer, TeamSite - AmerisourceBergen Corporation, 2000-2005",
-				"Sr. Art Director, Human Factors - US Interactive, 1998-2000",
-				"User Interface Designer - GDI (Garg Data International), 1996-1998"
+				"VP, Director of Engineering — Earthbound Media Group (2006–2007). Grew the team from 1 junior designer to 10+ web, application, and multimedia engineers; drove $1.4M in engineering revenue in year one.",
+				"Owner & Principal Solutions Architect — Miletwo, Inc. (2005–2006). Enterprise content management architecture for Qualcomm (Interwoven TeamSite migration), Dow Chemical (5,000-page conversion in under 3 months), and Northrop Grumman (CMS for a classified aerospace program).",
+				"Sr. Application Engineer, TeamSite — AmerisourceBergen Corporation (2000–2005)",
+				"Sr. Art Director, Human Factors — US Interactive (1998–2000)",
+				"User Interface Designer — GDI / Garg Data International (1996–1998)"
+			]
+		}
+	],
+	"skills": [
+		{
+			"name": "Product Security & Secure SDLC",
+			"level": "Master",
+			"keywords": [
+				"Secure SDLC policy design",
+				"Shift-left at ideation",
+				"DevSecOps",
+				"Security program transformation",
+				"Risk-based prioritization"
+			]
+		},
+		{
+			"name": "AI & Agentic Systems Security",
+			"level": "Intermediate",
+			"keywords": [
+				"Security policy for agentic dev systems",
+				"LLM-powered security review",
+				"RAG application security",
+				"Prompt injection defense",
+				"AI-augmented security tooling"
+			]
+		},
+		{
+			"name": "Threat Modeling",
+			"level": "Expert",
+			"keywords": [
+				"STRIDE",
+				"MAESTRO (agentic AI)",
+				"Matter / IoT protocol threat modeling",
+				"Standards-body security review (Connectivity Standards Alliance)"
+			]
+		},
+		{
+			"name": "Application Security",
+			"level": "Master",
+			"keywords": [
+				"SAST / DAST / SCA in CI/CD",
+				"Penetration testing (BurpSuite, Postman, NMAP)",
+				"Secure code review (Python, Java)",
+				"Developer security training at scale"
+			]
+		},
+		{
+			"name": "Standards & Community",
+			"level": "Expert",
+			"keywords": [
+				"OWASP Logging Vocabulary (author)",
+				"OWASP Secrets Management Cheat Sheet (contributor)",
+				"Connectivity Standards Alliance — Matter Threat Model Tiger Team",
+				"Conference speaker, podcast host (62 episodes)"
+			]
+		},
+		{
+			"name": "Leadership",
+			"level": "Expert",
+			"keywords": [
+				"Distinguished Engineer — program-shaping scope",
+				"Cross-functional partnership with product + engineering leadership",
+				"Engineering team building",
+				"Hiring loop & assessment design"
 			]
 		}
 	],

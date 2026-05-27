@@ -22,3 +22,35 @@
   display: none !important;
 }
 
+/* Skills section layout fix.
+   Theme defaults: #skills is flex row-wrap; .item is width:16em; .keywords is
+   width:15em; .keywords li is inline-block with white-space:nowrap. Long chips
+   like "Connectivity Standards Alliance — Matter Threat Model Tiger Team"
+   overflow the fixed width and overlap the next item. Fix: let items size to
+   content, let long chips wrap to two lines, and keep rows aligned to the top
+   so shorter groups don't climb under taller neighbors. */
+#skills {
+  align-items: flex-start;
+  gap: 1.25em 1.5em;
+}
+
+#skills .item,
+#skills .item .keywords {
+  width: auto;
+  min-width: 16em;
+  max-width: 22em;
+  flex: 0 1 auto;
+}
+
+#skills .keywords li {
+  white-space: normal;
+  line-height: 1.25;
+}
+
+@media print {
+  #skills .item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
